@@ -1,0 +1,30 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-indigo-600 mb-2">Terrific Timelines: Fashion</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">Step Into the Stylish Story of Fashion Through the Ages</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>Terrific Timelines: Fashion</strong> is your stylish ticket to explore how fashion has evolved across centuries — from ancient civilizations to modern trends. This interactive and beautifully illustrated book brings the history of fashion to life in an engaging and accessible way for young readers and fashion enthusiasts alike.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Travel through time and discover what people wore during the Roman Empire, the elaborate gowns of the Renaissance, the glam of the Roaring Twenties, and the futuristic looks of today. Each page features colorful visuals, fun facts, and a fold-out timeline packed with iconic outfits, accessories, and fashion statements.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    From togas to top hats, corsets to catwalks, <strong>Terrific Timelines: Fashion</strong> explores how clothing reflects culture, technology, and identity throughout human history. Perfect for curious minds and budding designers, this book is both educational and endlessly entertaining.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Fold-out timeline filled with fashion facts</li>
+      <li>Fun and vibrant illustrations</li>
+      <li>Iconic styles and what made them trendy</li>
+      <li>Accessible and engaging for all ages</li>
+      <li>A perfect gift for young fashion fans</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Fashion isn't just about what you wear — it's a story of creativity, culture, and change. Unfold the timeline and step into the world of style with <strong>Terrific Timelines: Fashion</strong>.
+  </p>
+</section>

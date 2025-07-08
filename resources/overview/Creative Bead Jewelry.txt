@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-pink-700 mb-2">Bead Jewelry: Create Stunning Accessories</h3>
+
+<p>
+    Unlock the vibrant world of beaded jewelry with this beautifully illustrated guide, perfect for both beginners and seasoned crafters alike. Whether you're looking to design elegant necklaces, playful bracelets, or unique earrings, this book provides <strong>step-by-step instructions</strong> and <strong>inspiration galore</strong> to bring your creative vision to life.
+</p>
+
+<p class="mt-2">
+    Through full-color visuals and clear techniques, you’ll learn how to transform simple beads into <strong>stylish and eye-catching pieces</strong>—from charming pins and barrettes to show-stopping statement sets. Each project is carefully curated to balance beauty and accessibility, making it easy for anyone to dive into the world of handcrafted accessories.
+</p>
+
+<p class="mt-2">
+    With expert tips on selecting materials, mixing colors, and adding personal flair, this book is your go-to companion for making jewelry that reflects your unique style.
+</p>
+
+<p class="mt-2 italic text-pink-700 font-medium">
+    A must-have for DIY lovers and gift-makers, this delightful guide will leave you inspired to bead, design, and shine.
+</p>

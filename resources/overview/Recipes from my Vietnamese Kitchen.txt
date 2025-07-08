@@ -1,0 +1,18 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d3436; line-height: 1.7;">
+  <h2 style="color: #d63031;">Recipes from My Vietnamese Kitchen – Hương Vị Quê Hương Trong Gian Bếp Của Bạn</h2>
+
+  <p><strong>Thổi hồn ẩm thực Việt vào căn bếp của bạn</strong> cùng đầu bếp danh tiếng Uyen Luu – người mang đến những công thức nấu ăn đậm đà bản sắc, được truyền lại qua nhiều thế hệ trong gia đình.</p>
+
+  <p>Cuốn sách sẽ đưa bạn khám phá bí quyết để tạo nên sự hòa quyện hoàn hảo giữa ngọt, chua, mặn, đắng, cay và umami – đặc trưng của ẩm thực Việt Nam.</p>
+
+  <div style="background-color: #fff8f0; border-left: 5px solid #e17055; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Những món ăn không thể bỏ lỡ như <em>phở</em>, bánh mì, và gỏi cuốn tươi mát</li>
+      <li>Chia theo chương: Bữa sáng, Món súp, Món ăn nhẹ, Mì & Bún, Bữa trưa & tối, và Tráng miệng</li>
+      <li>Đi kèm những câu chuyện về phép tắc trên bàn ăn, ký ức gia đình và truyền thống văn hóa</li>
+      <li>Hình ảnh gợi nhớ về những chuyến hành trình trở lại Việt Nam – nơi khơi nguồn cảm hứng cho từng món ăn</li>
+    </ul>
+  </div>
+
+  <p><strong>Recipes from My Vietnamese Kitchen</strong> không chỉ là một quyển sách dạy nấu ăn, mà còn là hành trình kể chuyện – nơi từng công thức là một mảnh ký ức, một góc nhỏ của văn hóa Việt được gìn giữ qua năm tháng.</p>
+</section>

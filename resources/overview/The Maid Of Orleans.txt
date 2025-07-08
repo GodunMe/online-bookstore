@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-indigo-800 mb-4">Joan of Arc</h2>
+  <p class="text-gray-700 mb-4">
+    Widely praised by historians and literary critics alike, this compelling biography by Sven Stolpe offers one of the most thoroughly researched and eloquently written portrayals of the Maid of Orleans. Through vivid storytelling and deep historical insight, Stolpe reconstructs the world of 15th-century France and provides a fresh, powerful interpretation of Joan’s life.
+  </p>
+  <p class="text-gray-700 mb-4">
+    Rather than focusing solely on Joan of Arc’s political and military legacy, Stolpe presents her primarily as a mystic—her true triumph rooted not only in the deliverance of France, but in her spiritual journey and profound identification with the passion of Christ. This shift from a nationalistic view to a more universal, human experience brings Joan closer to the modern reader.
+  </p>
+  <p class="text-gray-700 mb-4">
+    With a scholarly foundation and literary grace, Stolpe crafts a narrative that reads with the intensity of a novel. As one reviewer noted, “It is impossible to lay it aside until the last word is reached.” This work offers a moving and transformative reevaluation of Saint Joan—her purpose, faith, and enduring influence.
+  </p>
+</div>

@@ -1,0 +1,67 @@
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<body>
+	<div id="book-management">
+		<div class="flex">
+			<h1>Categories</h1>
+		</div>
+		
+		<table>
+			<thead>
+				<tr>
+					<th>Category Name</th>
+					<th>Number of Book Used</th>
+					<th>Actions</th>
+				</tr>
+			</thead>
+			<tbody id="category-list">
+			</tbody>
+		</table>
+	</div>
+</body>
+<script>
+	$(document).ready(function() {
+		$.ajax({
+			url: 'data/categories-with-number-of-books',
+			method: 'GET',
+			success: function(data) {
+				$('#category-list').empty();
+				$.each(data, function(key, value) {
+					console
+					let isDelete = ``;
+					if (value === 0) {
+						isDelete = `<span data-category="${key}" class="delete-category sub-button delete-button">Delete</span>`;
+					}
+					$("#category-list").append(
+						`
+						<tr>
+						<td>${key}</td>
+						<td>${value}</td>
+						<td>${isDelete}</td>
+						</tr>
+						`
+					);
+				});
+				$(".delete-category").click(function() {
+					$.ajax({
+						url : 'data/categories/delete/' + $(this).data("category"),
+						method : 'DELETE',
+						success : function(message) {
+							alert(message)
+							$("main").empty().load("admin/category");
+						},
+						error : function(xhr, status, error) {
+							alert(xhr.responseText)
+							$("main").empty().load("admin/category");
+						}
+					});
+				});
+			},
+			error: function(xhr, status, error) {
+			    console.error("Error:", error);
+			}
+		});
+		
+	});
+</script>
+</html>

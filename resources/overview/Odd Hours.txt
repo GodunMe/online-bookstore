@@ -1,0 +1,19 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.7;">
+  <h2 style="color: #8e44ad;">Odd Hours – A Hero Like No Other</h2>
+
+  <p>Very few fictional characters are known simply by their first name—but <strong>Odd Thomas</strong> is one of them. Brought to life by bestselling author <em>Dean Koontz</em>, Odd’s story transcends the ordinary, blending mystery, the supernatural, and heartfelt humanity in a journey that keeps readers hooked from start to finish.</p>
+
+  <p>The legend began in the quiet town of Pico Mundo, where Odd worked as a fry cook and harbored a unique gift—the ability to communicate with the dead. From there, his reputation spread, bringing him allies, enemies, and challenges far beyond what any one man should face. But Odd is no ordinary man. With quiet courage, dry wit, and a heart full of love and loss, he takes on darkness most wouldn’t dare confront.</p>
+
+  <div style="background-color: #f9f4fb; border-left: 5px solid #9b59b6; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Continues Odd’s journey into deeper mysteries—both worldly and beyond</li>
+      <li>Introduces a coastal town shrouded in secrets and danger</li>
+      <li>Features familiar companions: Boo the ghost dog and a new spirit guide</li>
+      <li>Pits Odd against enemies empowered by both institutional and dark supernatural forces</li>
+      <li>Delivers emotional depth, suspenseful twists, and moments of profound insight</li>
+    </ul>
+  </div>
+
+  <p style="color: #5e3370; font-weight: bold;">In <em>Odd Hours</em>, Koontz once again proves why he’s hailed as a master of suspense. This is a story of perseverance, destiny, and the indelible spirit of a man who is anything but ordinary. Odd’s journey will stay with you long after the final page.</p>
+</section>

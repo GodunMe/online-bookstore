@@ -1,0 +1,30 @@
+<section style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; color: #333;">
+  <h2 style="color: #2c3e50;">Why Choose Phonics?</h2>
+  <p>
+    The ability to <strong>decode and encode words efficiently</strong> underpins success with reading and writing. 
+    Phonics helps children <strong>decode words for reading</strong> and <strong>encode words for spelling</strong>.
+  </p>
+
+  <p>
+    The <strong>Targeting Phonics</strong> series uses a <strong>systematic synthetic phonics approach</strong> 
+    and follows the learning progression outlined in the <strong>Australian Curriculum</strong>.
+  </p>
+
+  <h3 style="color: #34495e;">This Book Includes:</h3>
+  <ul>
+    <li>The 26 letters of the alphabet (<em>graphemes</em>) and their relationship to the 44 sounds (<em>phonemes</em>) of the English language</li>
+    <li>The initial sounds of the 21 consonants</li>
+    <li>The five short vowels: <strong>a, e, i, o, u</strong></li>
+  </ul>
+
+  <h4 style="color: #2c3e50;">Letter and Sound Sequence:</h4>
+  <ul style="columns: 2;">
+    <li>s, a, t, p</li>
+    <li>n, i, d, m</li>
+    <li>g, o, c, b</li>
+    <li>h, e, r, u</li>
+    <li>f, l, j, k</li>
+    <li>v, w, y, z</li>
+    <li>q, x</li>
+  </ul>
+</section>

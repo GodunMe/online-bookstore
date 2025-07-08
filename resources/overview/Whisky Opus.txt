@@ -1,0 +1,28 @@
+<section class="max-w-5xl mx-auto p-8 bg-white rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-yellow-800 mb-2">The Whisky Opus</h1>
+  <h2 class="text-xl text-gray-700 font-semibold mb-6">The Ultimate Guide to the World’s Whiskies</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>The Whisky Opus</strong> is your definitive companion to the fascinating and expanding world of whisky — from the highlands of Banffshire to the bustling streets of Bangalore. This beautifully crafted volume explores the rich diversity of whisky across the globe, spotlighting <strong>175 of the world’s best distilleries</strong>.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Discover every major whisky style — from smooth single malts and bold blends to rare poteen — and dive into the unique histories and stories behind each distillery. Featuring <strong>500 evocative tasting notes</strong>, this book will guide you in training your palate and deepening your appreciation for this iconic spirit.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Whether you're new to the world of whisky or an aspiring connoisseur, <strong>The Whisky Opus</strong> offers a comprehensive and elegant look at everything whisky lovers want to know. Authored by three acclaimed whisky writers, this book is a must-have for your collection.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Profiles of 175 world-class distilleries</li>
+      <li>Detailed history of whisky production and styles</li>
+      <li>500 vivid tasting notes to enhance your whisky journey</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Make <strong>The Whisky Opus</strong> your tipple of choice — and your passport to the world of whisky.
+  </p>
+</section>

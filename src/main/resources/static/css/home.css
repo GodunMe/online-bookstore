@@ -1,0 +1,48 @@
+/* Footer Always Show if Content is Short */
+#footer.fixed {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #1a202c;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+#footer {
+	background-color: #1a202c;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	transition: opacity 0.3s ease, pointer-events 0.3s ease;
+}
+
+#footer.opacity-0 {
+	opacity: 0;
+	pointer-events: none;
+}
+
+#footer.opacity-100 {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+h1 img {
+	height: 30px;
+	margin-top: 7px;
+	margin-left: 15px;
+}
+
+.book-container {
+	transition: transform 0.3s ease-in-out;
+}
+
+.book-container:hover {
+	transform: scale(1.05);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

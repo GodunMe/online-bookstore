@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">It's Not the Winning that Counts</h2>
+  <p class="text-gray-700 mb-4">
+    Sport is often defined by glory and heartbreak, but true greatness lies in moments of integrity and honor. <em>It's Not the Winning that Counts</em> celebrates the rare but unforgettable acts of sportsmanship that remind us what the game is really about.
+  </p>
+  <p class="text-gray-700 mb-4">
+    From footballers who kicked wide to avoid scoring unfairly, to a yachtsman who abandoned victory to save a rival, and even tennis legend Jimmy Connors who double faulted in a Grand Slam final to restore fairness—these stories reflect the noble spirit still alive in sports.
+  </p>
+  <p class="text-gray-700 mb-4">
+    In an age of theatrics, fouls, and controversy, author <strong>Max Davidson</strong> honors the white knights of the sporting world—from David Beckham to Freddie Flintoff, Jesse Owens to Muhammad Ali. This book is a powerful reminder that sometimes, the most memorable victories come not from winning, but from doing the right thing.
+  </p>
+</div>

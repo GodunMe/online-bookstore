@@ -1,0 +1,33 @@
+<section style="max-width: 900px; margin: 50px auto; padding: 30px; background-color: #fffdf9; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); font-family: 'Georgia', serif; color: #3a2f2c; line-height: 1.7;">
+  <h2 style="font-size: 34px; color: #b03025; margin-bottom: 10px;">The Modern Italian Cook</h2>
+  <p style="font-style: italic; color: #7d4b44;">By Joseph Trivelli – Co-head chef of the legendary River Café</p>
+  <p style="font-size: 16px; color: #856d66;">★ <strong>Observer Food Monthly’s #1 Food Book of 2018</strong> ★</p>
+
+  <blockquote style="margin: 25px 0; padding-left: 20px; border-left: 4px solid #b03025; color: #5a4d48;">
+    <em>"This is a cookbook everyone should have in their kitchen. I will certainly have it in mine." – Ruth Rogers</em>
+  </blockquote>
+
+  <p>
+    In this stunning debut, Joseph Trivelli brings together over <strong>150 delicious recipes</strong> rooted in the comforting traditions of Italian home cooking. Raised by his Italian grandmother, Joseph first learned to cook watching her conjure magic from the simplest ingredients. Now, as co-head chef at the <strong>world-renowned River Café</strong>, he presents both time-honoured classics and his own inventive modern dishes.
+  </p>
+
+  <h3 style="color: #a72920; margin-top: 25px;">What's inside:</h3>
+  <ul style="margin-left: 20px; list-style: disc;">
+    <li>Simple but flavorful pasta, fish, meat, and vegetable dishes</li>
+    <li>Elegant recipes made with few ingredients</li>
+    <li>Chapters on baked dishes and quick dinners</li>
+    <li>Gorgeous, evocative food photography throughout</li>
+  </ul>
+
+  <p style="margin-top: 20px;">
+    <strong>The Modern Italian Cook</strong> is not just a recipe collection—it's a love letter to Italian cuisine, full of heart, heritage, and hospitality.
+  </p>
+
+  <h4 style="color: #8c3b30; margin-top: 30px;">Praise for the Book:</h4>
+  <ul style="margin-left: 20px; list-style: circle;">
+    <li><em>"Bravo Joe." – Anna del Conte</em></li>
+    <li><em>"A truly personal collection… a joy." – Simon Hopkinson</em></li>
+    <li><em>"Seasoned with good writing… so much to love." – Allan Jenkins</em></li>
+    <li><em>"Excellent… the recipes are special and all seem so delicious." – Itamar Srulovich, Honey & Co</em></li>
+  </ul>
+</section>

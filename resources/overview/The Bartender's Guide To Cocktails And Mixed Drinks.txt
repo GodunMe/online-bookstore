@@ -1,0 +1,31 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; color: #333;">
+  <h2 style="color: #b22222;">The Ultimate Bartender's Guide</h2>
+  
+  <p>
+    <strong>A complete encyclopedia of spirits, liqueurs, wine, beer, and mixers</strong>—plus everything you need to craft over 
+    <strong>600 amazing drinks</strong>, both alcoholic and non-alcoholic!
+  </p>
+
+  <ul style="margin-left: 20px;">
+    <li>Comprehensive guide to <strong>spirits, liqueurs, wine, beer</strong> and mixers</li>
+    <li>Step-by-step instructions for making classic cocktails like the <em>Dry Martini</em>, <em>Margarita</em>, and <em>Grasshopper</em></li>
+    <li>Explore unique and vibrant drinks including the <em>Blue Hawaiian</em>, <em>Rite of Spring</em>, and <em>Passion Punch</em></li>
+    <li>Includes both <strong>alcoholic and non-alcoholic options</strong> for all occasions</li>
+  </ul>
+
+  <p>
+    A dedicated <strong>techniques section</strong> walks you through every bartending essential—from measuring and mixing, to 
+    pouring and garnishing. Learn how to:
+  </p>
+
+  <ul style="margin-left: 20px;">
+    <li>Frost a glass for that perfect chilled edge</li>
+    <li>Use a cocktail shaker like a pro</li>
+    <li>Create decorative fruit twists to impress your guests</li>
+  </ul>
+
+  <p>
+    Also included is a <strong>comprehensive glossary of drinks terminology</strong>, making this the perfect reference for beginners 
+    and a valuable resource for seasoned mixologists.
+  </p>
+</section>

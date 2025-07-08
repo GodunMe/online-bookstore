@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-indigo-700 mb-2">Great Historic Sites of the World</h3>
+
+<p>
+    This richly illustrated guide is your ultimate passport to the world’s most remarkable historical landmarks. From the mystic stones of <strong>Stonehenge</strong> to the sweeping expanse of the <strong>Great Wall of China</strong>, and from the ancient <strong>Sterkfontein Caves</strong>—known as the cradle of humanity in South Africa—to Cold War icons like <strong>Checkpoint Charlie</strong> in Germany, this book takes you on an unforgettable global journey through time.
+</p>
+
+<p class="mt-2">
+    Covering hundreds of locations across continents, it shines a spotlight on the sites that have shaped human civilization: where kings and queens were crowned, empires clashed and crumbled, revolutions sparked, and societies were transformed. Alongside famous landmarks, readers will discover lesser-known gems—each carefully chosen for its cultural, political, or spiritual significance.
+</p>
+
+<p class="mt-2">
+    Blending <strong>compelling narratives</strong> with <strong>breathtaking photography</strong>, this volume not only educates but also inspires curiosity and wonder. Whether it’s marveling at architectural ingenuity or reflecting on pivotal historical moments, every page offers a new window into our shared past.
+</p>
+
+<p class="mt-2 italic text-indigo-700 font-medium">
+    A captivating celebration of global heritage, perfect for history buffs, avid travelers, and curious minds eager to explore the legacies that connect us across time and geography.
+</p>

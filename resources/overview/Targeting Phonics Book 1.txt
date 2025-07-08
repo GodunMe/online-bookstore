@@ -1,0 +1,15 @@
+<section style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; color: #333;">
+  <h2 style="color: #2c3e50;">Introducing the New Targeting Phonics Series</h2>
+
+  <p>
+    <strong>Pascal Press</strong> is excited to announce the release of the new <strong>Targeting Phonics</strong> series, developed to support students’ practice of explicit phonics instruction aligned with their classroom teaching.
+  </p>
+
+  <p>
+    Targeting Phonics uses a <strong>systematic synthetic phonics</strong> approach that follows the recommended teaching progression from the <strong>Australian and NSW Curriculums</strong>. This approach ensures consistency and effectiveness in literacy development.
+  </p>
+
+  <p>
+    A unique feature of this series is the <strong>sound card page</strong>, which includes a <strong>QR code</strong> linking to mini video clips. These videos provide an <strong>audio component</strong> to help students hear and learn correct pronunciation of sounds.
+  </p>
+</section>

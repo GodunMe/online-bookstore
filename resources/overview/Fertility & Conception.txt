@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-pink-700 mb-2">Fertility & Conception</h3>
+
+<p>
+    <strong>Fertility & Conception</strong> is an essential guide for couples preparing to start a family—whether they’ve just begun considering parenthood or have already encountered challenges with conception. Packed with reliable advice and the latest scientific research, the book offers a comprehensive roadmap for maximizing fertility through both conventional medicine and complementary therapies.
+</p>
+
+<p class="mt-2">
+    Bridging the gap between modern reproductive science and holistic wellness, the book introduces two structured plans: <strong>Plan A</strong> is a 4-week preconception program that emphasizes diet, nutrition, and complementary therapies to naturally enhance fertility. <strong>Plan B</strong> is tailored for those undergoing medical interventions such as IVF, integrating these treatments with complementary practices to improve outcomes.
+</p>
+
+<p class="mt-2">
+    The author breaks down complex medical concepts into clear, easy-to-understand language, offering insights into hormonal balance, healthy ovulation, and managing conditions that can impact fertility. Readers will find valuable information on cutting-edge tests, treatment options, and lifestyle changes that support reproductive health.
+</p>
+
+<p class="mt-2 italic text-pink-700 font-medium">
+    Whether you're at the beginning of your journey or exploring all available options, <strong>Fertility & Conception</strong> empowers you with the knowledge and tools to take charge of your fertility with confidence and clarity.
+</p>

@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-amber-700 mb-2">A Culinary Journey Through Vietnam</h3>
+
+<p>
+    In the 1990s, Seattle native <strong>Kim Fay</strong> spent four transformative years living in Vietnam, falling deeply in love with the country’s romantic landscapes, vibrant culture, and heartfelt warmth of its people. But it was a decade later, driven by a longing to recreate an authentic Vietnamese meal for her loved ones, that she returned to Vietnam and began an extraordinary five-week culinary journey from Hanoi to Saigon.
+</p>
+
+<p class="mt-2">
+    Joined by her sister and her closest Vietnamese friend, Kim embarked on an immersive experience—eating her way through the nation’s bustling street cafés, refined restaurants, traditional markets, and intimate home kitchens. Along the way, they explored the intertwined stories of food and identity, shaped by war, colonial history, and cultural resilience.
+</p>
+
+<p class="mt-2">
+    From uncovering the quiet legacy of French ragu in the misty town of Dalat to meeting Saigon’s very own “Julia Child,” every encounter became a flavorful window into the heart of Vietnam. Through these experiences, Kim not only assembled her dream meal but also shared a rich tapestry of <strong>recipes</strong>—including banana flower salad and clay pot fish—alongside vivid portraits of the people behind the dishes.
+</p>
+
+<p class="mt-2 italic text-amber-700 font-medium">
+    <em>A Culinary Journey Through Vietnam</em> is both a heartfelt travelogue and a cultural exploration, perfect for food lovers, travelers, and anyone hungry to understand how food reflects who we are—as individuals and as a community.
+</p>

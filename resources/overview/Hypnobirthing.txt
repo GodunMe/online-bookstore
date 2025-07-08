@@ -1,0 +1,21 @@
+<h3 class="text-2xl font-semibold text-pink-600 mb-2">This Book Will Make Your Birth Better</h3>
+
+<p>
+    Written by expert hypnobirthing teacher and founder of The Positive Birth Company, <strong>Siobhan Miller</strong>, this empowering guide is for every woman and every type of birth — whether it’s a home water birth, a hospital delivery, or an unplanned caesarean.
+</p>
+
+<p class="mt-2">
+    In <em>This Book Will Make Your Birth Better</em>, Siobhan demystifies hypnobirthing and reveals how it can help make any birth experience calmer, more comfortable, and more positive. Backed by science and delivered with warmth and clarity, this book equips mothers-to-be and their birth partners with the knowledge and practical tools to navigate labor confidently.
+</p>
+
+<p class="mt-2">
+    You’ll learn how your body works on a muscular and hormonal level during labor, and how simple relaxation techniques can help you work with your body — not against it — for a more efficient and empowering birth. Siobhan’s down-to-earth approach dispels myths, replaces fear with facts, and offers a mindset shift that helps women feel informed, in control, and genuinely excited about giving birth.
+</p>
+
+<p class="mt-2 italic text-pink-600 font-medium">
+    “This book will be a complete game changer.” — <strong>Sarah Turner</strong>, author of <em>The Unmumsy Mum</em>
+</p>
+
+<p class="mt-2">
+    <strong>Prepare to feel calm, capable, and confident as you approach one of the most transformative experiences of your life.</strong>
+</p>

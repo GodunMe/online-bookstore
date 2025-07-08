@@ -1,0 +1,21 @@
+<section style="max-width: 960px; margin: 50px auto; padding: 30px; background: #fdfdfd; border-radius: 16px; box-shadow: 0 12px 30px rgba(0,0,0,0.08); font-family: 'Georgia', serif; line-height: 1.7; color: #2b2b2b;">
+  <h1 style="font-size: 32px; color: #7c0303;">📜 The Templar Salvation</h1>
+  <p style="font-size: 18px; color: #555;">By <strong>Raymond Khoury</strong> – New York Times bestselling author of <em>The Last Templar</em></p>
+
+  <hr style="margin: 25px 0; border: none; border-top: 1px solid #ddd;" />
+
+  <blockquote style="background-color: #fff0e5; padding: 20px; border-left: 5px solid #cc3300; border-radius: 10px; font-style: italic; margin-bottom: 30px;">
+    "A full-throttle action-adventure thriller" — <strong>Library Journal</strong>
+  </blockquote>
+
+  <p><strong>📍 Constantinople, 1203:</strong> As the Fourth Crusade unleashes chaos upon the city, a secretive band of Templars stealthily infiltrates the imperial library. Their mission? To recover a cache of forbidden documents before they fall into Venetian hands. With three mysterious chests in tow, they flee—but they’ll never live long enough to know the magnitude of what they’ve uncovered…</p>
+
+  <p><strong>📍 Vatican City, Present Day:</strong> FBI agent Sean Reilly breaks into the impenetrable Vatican Secret Archives—where only the Pope's closest confidants are allowed. Why? Because a brutal terrorist is holding Tess Chaykin hostage. The price of her life? A document known only as the <strong>Fondo Templari</strong>: the secret history of the legendary Knights Templar, sealed away for centuries beneath the Vatican.</p>
+
+  <h3 style="color: #7c0303; margin-top: 30px;">🔥 High Stakes. Ancient Secrets. Relentless Pursuit.</h3>
+  <p>Spanning continents and centuries, <strong>The Templar Salvation</strong> delivers electrifying suspense, historical intrigue, and nonstop action. It’s a masterfully woven thriller that dives deep into ancient conspiracies, dark truths, and the enduring power of secret knowledge.</p>
+
+  <footer style="margin-top: 40px; text-align: center; font-style: italic; color: #666;">
+    History always keeps its deadliest secrets buried deep...
+  </footer>
+</section>

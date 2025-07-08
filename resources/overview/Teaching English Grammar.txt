@@ -1,0 +1,30 @@
+<section style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; color: #333; line-height: 1.6;">
+  <h2 style="color: #2c3e50;">Teaching English Grammar</h2>
+  <p>
+    <em>The perfect companion</em> for both trainees and teacher trainers following courses such as the 
+    <strong>Cambridge CELTA</strong> and the <strong>Trinity Certificate in TESOL</strong>, as well as teachers who are unsure of how to present grammar or those looking for fresh approaches.
+  </p>
+
+  <p>
+    <strong>Teaching English Grammar</strong> aims to combine language information and methodological guidance in a 
+    straightforward, authoritative manner—helping English language teachers <strong>prepare and deliver effective grammar lessons</strong> within their syllabus.
+  </p>
+
+  <p>
+    This practical handbook supports teachers with clear, concise content and makes lesson preparation <strong>easy and stress-free</strong>.
+  </p>
+
+  <h3 style="color: #34495e;">Key Features</h3>
+  <ul>
+    <li>
+      <strong>Situational presentations</strong> of target grammar structures with illustrated picture representations 
+      – ideal for board use when first introducing a concept.
+    </li>
+    <li>
+      <strong>Clear grammar explanations</strong> with timelines and concept-checking questions where appropriate.
+    </li>
+    <li>
+      <strong>Practical classroom ideas</strong> for grammar practice, adaptable to various settings including teens and large classes.
+    </li>
+  </ul>
+</section>

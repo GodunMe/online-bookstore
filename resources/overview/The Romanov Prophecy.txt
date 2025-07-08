@@ -1,0 +1,20 @@
+<section style="max-width: 900px; margin: 50px auto; padding: 30px; background-color: #fdfdfd; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Georgia', serif; color: #1e1e1e; line-height: 1.7;">
+  <h2 style="font-size: 30px; color: #4a1f00; margin-bottom: 12px;">👑 A Thrilling Race Through History and Danger</h2>
+  <p style="font-style: italic; color: #555;">"History is being made and Miles Lord has a ringside seat."</p>
+
+  <p style="margin-top: 20px;">
+    The people of Russia have voted to bring back the <strong>tsar</strong>, choosing a ruler from among the distant descendants of <strong>Nicholas II</strong>, whose family met a tragic end in 1918. Tasked with running a background check on one of the candidates, <strong>Miles Lord</strong> finds himself drawn into a web of conspiracy and assassination.
+  </p>
+
+  <p>
+    After narrowly escaping a deadly attack, Miles is thrust into a heart-pounding chase across continents. With only a <em>cryptic prophecy by Rasputin</em>—whispered at the time of the Romanov massacre—as his clue, Miles must uncover a secret that could alter the course of history.
+  </p>
+
+  <blockquote style="margin: 30px 0; padding-left: 20px; border-left: 4px solid #b34100; color: #444;">
+    <em>“The implications of this prophecy are earth-shattering — not only for the future tsar and Mother Russia, but for Miles himself.”</em>
+  </blockquote>
+
+  <p>
+    With danger at every turn and time running out, this gripping historical thriller explores the intersection of power, prophecy, and legacy in a modern Russia haunted by its past.
+  </p>
+</section>

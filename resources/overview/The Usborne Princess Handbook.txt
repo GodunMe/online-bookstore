@@ -1,0 +1,22 @@
+<section style="max-width: 800px; margin: 50px auto; padding: 30px; background: #fff0f7; border-radius: 16px; box-shadow: 0 10px 25px rgba(255, 153, 204, 0.3); font-family: 'Comic Sans MS', cursive, sans-serif; color: #b03060;">
+  <h1 style="font-size: 32px; text-align: center; color: #d63384;">👑 How to Be a Princess</h1>
+  <p style="text-align: center; font-size: 16px; margin-bottom: 20px;"><em>Written in collaboration with Princess Beatrice von Preussen of York</em></p>
+
+  <div style="background: #fff; border: 2px dashed #ff99cc; padding: 20px; border-radius: 12px; margin-bottom: 20px;">
+    <p>✨ Have you ever dreamed of tiaras, glass slippers, and royal balls? Then this delightful guide is your ticket to becoming the princess you’ve always wanted to be!</p>
+    
+    <ul style="margin-left: 20px;">
+      <li>💄 Learn how to dress with elegance and sparkle</li>
+      <li>🍰 Master royal etiquette for every formal occasion</li>
+      <li>💖 Discover how to find your Prince Charming</li>
+      <li>🌍 Read about real-life princesses from around the world</li>
+      <li>🔮 Take the magical quiz to reveal your princess personality</li>
+    </ul>
+  </div>
+
+  <p style="font-size: 18px;">Written with sparkle, humor, and a big splash of fairy dust, this book is a must-have for every little royal-in-training. Whether you're preparing for your first ball or just want to carry yourself like royalty in the playground, this is the enchanting companion you need in your handbag (or your sparkly backpack!).</p>
+
+  <footer style="text-align: center; margin-top: 30px; font-style: italic; color: #c71585;">
+    Because every girl deserves to feel like a princess 💕
+  </footer>
+</section>

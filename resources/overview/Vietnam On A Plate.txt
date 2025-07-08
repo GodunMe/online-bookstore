@@ -1,0 +1,16 @@
+<section class="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl mt-10">
+  <h1 class="text-3xl font-bold text-red-600 mb-4">Vietnam on a Plate</h1>
+  <h2 class="text-xl font-semibold text-gray-800 mb-2">A Culinary Journey Through Vietnam</h2>
+  <p class="text-gray-700 mb-4">
+    <strong>Vietnam on a Plate</strong> is a guide in the best sense of the word. Annabel Doling explores the culinary traditions and modern menus of Vietnam to present an intimate and entertaining portrait of a country, its people, and its rich cuisine.
+  </p>
+  <p class="text-gray-700 mb-4">
+    Blending history, personal anecdotes, and cultural insight, Doling takes readers on a journey through a cuisine where aromatic spices are balanced by fresh herbs, and where steaming bowls of pho mingle with fresh baguettes and cà phê phin on every corner.
+  </p>
+  <p class="text-gray-700 mb-4">
+    The book offers in-depth coverage of regional culinary trends—from the hearty dishes of the North, to the imperial flavors of the Center, to the vibrant and sweet notes of Southern Vietnamese cooking. It also includes authentic recipes, a helpful glossary of food terms, and a travel guide to eating well across major Vietnamese cities and towns.
+  </p>
+  <p class="text-gray-700 mb-6">
+    Beautifully illustrated with original and archival photographs, along with modern art, <em>Vietnam on a Plate</em> is an inspiring resource for food lovers and travelers alike.
+  </p>
+  </section>

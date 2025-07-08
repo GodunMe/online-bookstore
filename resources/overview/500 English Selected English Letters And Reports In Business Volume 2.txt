@@ -1,0 +1,27 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-blue-800 mb-2">500 Selected English Letters And Reports In Business - Volume 2</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">Enhance Your Business Writing Skills with Real-World Samples</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>Volume 2</strong> of the acclaimed series <em>500 Selected English Letters And Reports In Business</em> provides a practical collection of business documents essential for professionals, students, and English learners. This book includes model letters and reports used in various business contexts, ranging from sales and marketing to finance, customer service, and interdepartmental communication.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Designed for ease of use, each document comes with clear formatting, professional tone, and context explanation. Whether you're writing a formal email, drafting a sales proposal, or responding to a complaint, this book offers valuable templates and phrases to boost your confidence and effectiveness in business English.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>500+ professionally written letters & reports</li>
+      <li>Useful for real-life business situations</li>
+      <li>Includes formal and semi-formal writing styles</li>
+      <li>Ideal for English learners and business professionals</li>
+      <li>Supports letter-writing skills for IELTS & business exams</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Empower your communication with confidence and clarity. <br/>
+    <strong>Master the art of business writing with Volume 2 of this indispensable series.</strong>
+  </p>
+</section>

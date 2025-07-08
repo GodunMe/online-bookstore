@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-green-700 mb-2">Baby's First Skills: Learn Through Play</h3>
+
+<p>
+    Support your baby’s development with <strong>creative, engaging play</strong> using <em>Baby's First Skills</em> — a month-by-month guide to your child’s first year, written by trusted parenting expert Dr. Miriam Stoppard.
+</p>
+
+<p class="mt-2">
+    This nurturing guide follows your baby’s journey from newborn to one year old, with age-appropriate bonding activities that fit into just one hour each day. The <strong>Golden Hour of Play</strong> offers simple ways to encourage learning through fun, everyday interactions.
+</p>
+
+<p class="mt-2">
+    Discover a wide variety of activities — from nursery rhymes and games to gentle massage techniques — each designed to stimulate specific areas of development. Dr. Stoppard’s exclusive <strong>Baby Skill Map</strong> gives you a clear view of which skills are emerging and when.
+</p>
+
+<p class="mt-2 italic text-green-700 font-medium">
+    Turn playtime into growth time, and enjoy every step of your baby’s journey — with you as their favourite playmate!
+</p>

@@ -1,0 +1,19 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d3436; line-height: 1.7;">
+  <h2 style="color: #6c5ce7;">Rodin – Master of Modern Sculpture</h2>
+
+  <p><strong>For Auguste Rodin,</strong> art was not just a passion—it was everything. As the founder of modern sculpture, he redefined the human form in art and left a permanent mark on the world of creativity and expression.</p>
+
+  <p>Among his most iconic and celebrated works are <em>The Kiss</em>, <em>The Thinker</em>, and <em>The Burghers of Calais</em>. These masterpieces, along with many others, are captured in this stunning visual collection, showcasing the emotional depth and technical brilliance of Rodin’s artistry.</p>
+
+  <div style="background-color: #f0f0ff; border-left: 5px solid #a29bfe; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Explore the evolution of Rodin’s style across his long and prolific career</li>
+      <li>High-quality photographs reveal the texture, form, and detail of each sculpture</li>
+      <li>A tribute to the man who gave sculpture a new emotional and psychological dimension</li>
+    </ul>
+  </div>
+
+  <p style="color: #341f97; font-weight: bold;">
+    Rodin’s legacy lives on—not just in bronze and marble, but in the way we see and feel art today.
+  </p>
+</section>

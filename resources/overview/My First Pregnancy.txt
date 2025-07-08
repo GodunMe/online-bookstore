@@ -1,0 +1,20 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.7;">
+  <h2 style="color: #2980b9;">My First Pregnancy – Your Trusted Guide Through Every Step</h2>
+  
+  <p><strong>Discovering you're expecting for the first time</strong> is a magical moment—but it can also feel overwhelming and full of questions. <em>My First Pregnancy</em>, written by a team of experienced healthcare professionals, is here to be your go-to companion throughout your entire journey—from the moment you see those two lines to the day you finally hold your baby in your arms.</p>
+  
+  <p>Packed with comforting guidance, expert insights, and practical tools, this book ensures you feel informed, empowered, and ready for the beautiful road ahead.</p>
+
+  <div style="background-color: #f0f9ff; border-left: 5px solid #3498db; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Understand what to expect at antenatal appointments and how to read your medical notes</li>
+      <li>Explore scan options and available prenatal tests in detail</li>
+      <li>Track your baby's weekly development—from fluttery kicks to strong karate punches</li>
+      <li>Relieve common pregnancy discomforts with tried-and-tested tips—and know when to seek help</li>
+      <li>Stay well at work and effectively plan your maternity leave</li>
+      <li>Prepare for labour with calming techniques and solid birth plans</li>
+    </ul>
+  </div>
+
+  <p style="color: #2c3e50; font-weight: bold;">Whether you’re feeling excited, nervous, or a little bit of both, <em>My First Pregnancy</em> will help you feel calm, capable, and genuinely ready for the amazing experience of parenthood.</p>
+</section>

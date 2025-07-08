@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/home.css" />
+</head>
+
+<body class="h-screen w-full m-0 p-0 overflow-hidden">
+<div class="flex h-full w-full">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="w-1/5 bg-white shadow-md p-4 flex flex-col space-y-4">
+        <h1 class="text-xl font-bold flex items-center space-x-2">
+            <img src="/img/logo.png" alt="logo" />
+            <img src="/img/logo-title.png" alt="logo-title" />
+        </h1>
+
+        <nav id="sidebar-nav" class="space-y-2">
+            <a href="/home" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Home</a>
+            <div class="relative">
+                <button id="categories-btn" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Categories</button>
+                <div id="categories-menu" class="hidden absolute top-0 left-full ml-2 w-auto min-w-max max-h-96 overflow-y-auto border rounded-md bg-white shadow z-10 gap-2 p-2">
+                    <a th:each="category : ${categories}"
+                       th:href="@{'/category/' + ${category.categoryName}}"
+                       class="block text-left px-4 py-2 hover:bg-gray-100 whitespace-nowrap"
+                       th:text="${category.categoryName}"></a>
+                </div>
+            </div>
+            <a href="/bookmark" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Wish list</a>
+            <a href="/aboutUs" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">About us</a>
+            <a href="/help" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Help</a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="flex flex-col flex-1 overflow-hidden">
+        <!-- Top Navigation Bar -->
+        <header class="w-full h-16 bg-white shadow-md flex items-center px-6 justify-between flex-shrink-0">
+            <form action="/search" method="get" class="relative w-1/3">
+                <input type="text" name="query" placeholder="Search books..." id="searchInput" class="p-2 pr-8 border rounded-md w-full" oninput="toggleClearButton()" />
+                <button type="button" id="clearButton" onclick="clearSearch()" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 hover:text-black w-6 h-6 flex items-center justify-center rounded-full text-sm hidden">✕</button>
+            </form>
+
+            <div class="flex items-center space-x-8 pr-6">
+                <a href="/session/cart" class="text-xl">🛒</a>
+                <div class="relative inline-block text-left">
+                    <button id="userMenuButton" class="focus:outline-none">👤</button>
+                    <div id="userDropdown" class="hidden absolute right-0 mt-2 w-40 bg-white border rounded shadow-lg z-50">
+                        <ul class="py-1 text-sm text-gray-700">
+                            <li th:if="${loggedInUser == null}"><a href="/login" class="block px-4 py-2 hover:bg-gray-100">Login</a></li>
+                            <li th:if="${loggedInUser == null}"><a href="/register" class="block px-4 py-2 hover:bg-gray-100">Register</a></li>
+                            <li th:if="${loggedInUser != null}"><a href="/profile" class="block px-4 py-2 hover:bg-gray-100">View Profile</a></li>
+                            <li th:if="${loggedInUser != null}"><a href="/logout" class="block px-4 py-2 hover:bg-gray-100">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Scrollable Main Content -->
+        <main id="main-content" class="p-6 overflow-y-auto flex-1">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-xl font-semibold">My cart</h2>
+                <form method="post" action="/session/cart/checkout">
+    <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+        Proceed to checkout
+    </button>
+</form>
+
+            </div>
+
+            <div id="notification" class="hidden text-sm font-medium"></div>
+
+            <!-- If cart is empty -->
+            <div th:if="${cartItems == null or cartItems.isEmpty()}" class="text-center mt-10 text-gray-500">
+                <p>Your cart is currently empty 😢</p>
+                <a href="/home" class="text-blue-600 underline">Go back to shopping</a>
+            </div>
+
+            <!-- If cart has items -->
+            <div th:if="${cartItems != null and !cartItems.isEmpty()}" class="space-y-4">
+                <div th:each="item : ${cartItems}" class="flex items-center border-b py-4 gap-4 relative">
+                    <img th:src="@{'/books/' + ${item.bookURL}}" class="w-28 h-28 object-cover rounded" />
+                    <div class="flex-1">
+                        <h3 class="font-semibold" th:text="${item.bookTitle}">Book Title</h3>
+                        <div class="flex items-center gap-2 mt-2">
+                            <button type="button" class="qty-change-btn px-2 py-1 bg-gray-200 rounded" th:attr="data-book-id=${item.bookId}, data-delta=-1">-</button>
+                            <span th:id="'qty-' + ${item.bookId}" class="w-6 text-center inline-block" th:text="${item.quantity}">1</span>
+                            <button type="button" class="qty-change-btn px-2 py-1 bg-gray-200 rounded" th:attr="data-book-id=${item.bookId}, data-delta=1">+</button>
+                        </div>
+                    </div>
+
+                    <div class="text-right w-40">
+                        <p class="text-sm text-gray-500" th:id="'unit-price-' + ${item.bookId}" th:attr="data-price=${item.price}" th:text="'Price: ' + ${item.price} + 'đ'"></p>
+                        <p class="text-lg font-semibold text-green-600" th:id="'item-total-' + ${item.bookId}" th:text="${item.price * item.quantity} + 'đ'"></p>
+                    </div>
+
+                    <form class="absolute top-2 right-2" th:attr="data-book-id=${item.bookId}">
+                        <button type="button" class="text-gray-400 hover:text-red-500 text-xl font-bold">×</button>
+                    </form>
+                </div>
+
+                <div class="flex justify-end items-center border-t pt-4 mt-4">
+                    <p class="text-xl font-bold" id="grand-total" th:text="'Total: ' + ${totalPrice} + 'đ'">Total: ...</p>
+                </div>
+            </div>
+
+            <div class="flex justify-end mt-4 gap-4" th:if="${cartItems != null and !cartItems.isEmpty()}">
+                <button id="cancelChanges" class="bg-gray-300 px-4 py-2 rounded hover:bg-gray-400">Cancel Changes</button>
+                <button id="confirmChanges" class="bg-green-500 px-4 py-2 text-white rounded hover:bg-green-600">Confirm Changes</button>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="/js/jquery-3.7.1.min.js"></script>
+        <script src="/js/home.js"></script>
+        
+        <script>
+    let originalQuantities = {};
+    let removedItems = {};
+
+    $(document).ready(function () {
+      // Save initial quantity for each book
+      $(".qty-change-btn").each(function () {
+        const bookId = $(this).data("book-id");
+        const qtySpan = $("#qty-" + bookId);
+        originalQuantities[bookId] = parseInt(qtySpan.text());
+      });
+
+      // Handle quantity change
+      $(".qty-change-btn").click(function () {
+        const bookId = $(this).data("book-id");
+        const delta = parseInt($(this).data("delta"));
+        const qtySpan = $("#qty-" + bookId);
+        const currentQty = parseInt(qtySpan.text());
+        const newQty = currentQty + delta;
+        if (newQty < 1) return;
+
+        qtySpan.text(newQty);
+
+        // Update individual item total
+        const unitPrice = parseInt($(`#unit-price-${bookId}`).data("price"));
+        const total = unitPrice * newQty;
+        $(`#item-total-${bookId}`).text(`${total}đ`);
+
+        recalculateTotal();
+      });
+
+      // Cancel changes button
+      $("#cancelChanges").click(function () {
+        for (const bookId in originalQuantities) {
+          const qty = originalQuantities[bookId];
+          $("#qty-" + bookId).text(qty);
+
+          const unitPrice = parseInt($(`#unit-price-${bookId}`).data("price"));
+          $(`#item-total-${bookId}`).text(`${unitPrice * qty}đ`);
+        }
+
+        for (const bookId in removedItems) {
+          removedItems[bookId].show();
+        }
+
+        removedItems = {};
+        recalculateTotal();
+        $("#notification").text("Changes cancelled").removeClass().addClass("text-yellow-500 font-medium").fadeIn().delay(1500).fadeOut();
+      });
+
+      // Confirm changes button
+      $("#confirmChanges").click(function () {
+        for (const bookId in originalQuantities) {
+          const newQty = parseInt($("#qty-" + bookId).text());
+          if (newQty !== originalQuantities[bookId]) {
+            const formData = new FormData();
+            formData.append("bookId", bookId);
+            formData.append("quantity", newQty);
+
+            $.ajax({
+              url: '/session/cart/update',
+              method: 'POST',
+              data: formData,
+              processData: false,
+              contentType: false,
+              success: function (response) {
+                $("#notification").text(response).removeClass().addClass("text-green-600 font-medium").fadeIn().delay(2000).fadeOut();
+                originalQuantities[bookId] = newQty;
+              }
+            });
+          }
+        }
+
+        for (const bookId in removedItems) {
+          $.ajax({
+            url: '/session/cart/remove',
+            method: 'POST',
+            data: { bookId: bookId },
+            success: function (response) {
+              removedItems[bookId].remove();
+              $("#notification").text(response).removeClass().addClass("text-green-600 font-medium").fadeIn().delay(2000).fadeOut();
+            }
+          });
+        }
+
+        removedItems = {};
+      });
+
+      // Remove item from cart (temporarily)
+      $(".text-xl.font-bold").click(function () {
+        const $form = $(this).closest('form');
+        const bookId = $form.data('book-id');
+        const $row = $form.closest('.flex');
+        $row.hide();
+        removedItems[bookId] = $row;
+        recalculateTotal();
+        $("#notification").text("Item marked for removal").removeClass().addClass("text-yellow-500 font-medium").fadeIn().delay(2000).fadeOut();
+      });
+
+      // Recalculate total price
+      function recalculateTotal() {
+    	    let total = 0;
+
+    	    $("span[id^='qty-']").each(function () {
+    	        const bookId = $(this).attr("id").split("-")[1];
+    	        if (removedItems[bookId]) return;
+
+    	        const qty = parseInt($(this).text());
+    	        const price = parseInt($(`#unit-price-${bookId}`).data("price"));
+    	        total += qty * price;
+    	    });
+
+    	    $("#grand-total").text(`Total: ${total}đ`);
+    	}
+      initLayoutBehavior();            
+      implAddToCartButton();
+    });
+  </script>
+</body>
+</html>

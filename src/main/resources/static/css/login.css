@@ -1,0 +1,107 @@
+:root{
+--theme: #0361a9;
+--login-form: rgb(242, 242, 242);
+
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url('../img/background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;  
+}
+
+.login-container {
+	background-color: var(--login-form);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 350px;
+	text-align: center;
+}
+.logo-icon{
+	text-align: center;
+	width: 20%; 
+}
+
+.logo-title{
+	text-align: center;
+	width: 70%;
+}
+
+
+.input-field {
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+button {
+	width: 96%;
+	padding: 10px;
+	background-color: var(--theme);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+.error-msg {
+	color: red;
+	font-size: 14px;
+
+	margin-top: 10px;
+}
+
+.success-msg {
+	color: green;
+	font-size: 14px;
+	display: none;
+	margin-top: 10px;
+}
+
+.links {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.links a {
+	color: #007bff;
+	text-decoration: none;
+	display: block;
+	margin-bottom: -10px;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+.links a:last-child {
+	margin-bottom: 0;
+}
+
+#show-password {
+	background: none;
+	border: none;
+	color: #007bff;
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: underline;
+	padding: 0;
+	margin-top: 5px;
+}

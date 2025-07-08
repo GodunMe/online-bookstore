@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-purple-700 mb-2">Elsewhere</h3>
+
+<p>
+    In <strong>Elsewhere</strong>, Dean Koontz delivers a mind-bending speculative thriller that journeys across the multiverse, blending science fiction with heart-pounding suspense and emotional depth. Set in the quiet town of Suavidad Beach, single father Jeff Coltrane lives a modest life raising his daughter Amity after his wife Michelle mysteriously vanished seven years ago. Their fragile peace is shattered when an eccentric friend known as Mr. Spooky hands Jeff a strange box said to be worth $76 billion—containing "the key to everything"—and warns him never to open it.
+</p>
+
+<p class="mt-2">
+    But curiosity and hope prove too powerful. When Jeff finally activates the key, subtle anomalies begin to unravel reality itself. Their neighbors change, the air turns heavy with menace, and the world grows eerily unfamiliar. The box reveals it can navigate alternate realities—offering three options: <strong>HOME, SELECT, RETURN</strong>.
+</p>
+
+<p class="mt-2">
+    As Jeff, Amity, and her loyal mouse Snowball leap through increasingly dark and twisted versions of their world in search of Michelle, they face terrifying manifestations of evil, mysterious agents in pursuit, and the creeping realization that some versions of Earth are not just different—but deadly. At the center of it all lies a question both haunting and hopeful: how far would you go to reunite your family?
+</p>
+
+<p class="mt-2 italic text-purple-700 font-medium">
+    A gripping tale that pays tribute to Orwell, Bradbury, and H.G. Wells, <strong>Elsewhere</strong> explores the cost of love, the fragility of reality, and the lengths one father will go to in order to rewrite fate.
+</p>

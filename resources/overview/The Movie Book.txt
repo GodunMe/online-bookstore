@@ -1,0 +1,24 @@
+<section style="max-width: 900px; margin: 50px auto; padding: 30px; background-color: #fdfcfb; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.07); font-family: 'Helvetica Neue', sans-serif; color: #1e1e1e; line-height: 1.6;">
+  <h2 style="font-size: 32px; color: #b22222; margin-bottom: 10px;">🎬 The Movie Book</h2>
+  <p style="font-style: italic; color: #555;">"Makes you an offer you can't refuse..."</p>
+
+  <p style="margin-top: 20px;">
+    <strong>The Movie Book</strong> is your essential guide to more than 100 of the most influential, inspiring, and unforgettable films ever made. From the groundbreaking <em>La Voyage Dans La Lune</em> (1902) to the innovative storytelling of Richard Linklater’s <em>Boyhood</em>, this book offers a captivating journey through cinema history.
+  </p>
+
+  <h3 style="color: #a52a2a; margin-top: 25px;">Explore the World of Film</h3>
+  <ul style="margin-left: 20px; list-style-type: disc;">
+    <li>Chronological exploration of key films and their impact</li>
+    <li>Insight into early visionaries and golden-age classics</li>
+    <li>International art-house gems and modern sci-fi breakthroughs</li>
+    <li>Includes quotes, posters, biographies, timelines, and memorabilia</li>
+  </ul>
+
+  <blockquote style="margin: 25px 0; padding-left: 20px; border-left: 4px solid #b22222; color: #444;">
+    <em>“Essential for anyone with a passion for cinema, <strong>The Movie Book</strong> is ready for its close-up.”</em>
+  </blockquote>
+
+  <p>
+    Whether you're a seasoned cinephile or just starting your movie journey, this beautifully curated book will entertain, inform, and inspire you to see film in a whole new light.
+  </p>
+</section>

@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-indigo-700 mb-2">El Greco: Master of Mannerism</h3>
+
+<p>
+    Domínikos Theotokópoulos, known to the world as <strong>El Greco</strong>, stands among the most extraordinary artists of the late sixteenth century. Originally from Crete, he developed a strikingly original style that fused Byzantine traditions with Western painting techniques—creating a visual language all his own.
+</p>
+
+<p class="mt-2">
+    After moving to Spain, El Greco became the leading figure of <strong>Mannerism</strong>, pushing the boundaries of form and expression. His work, characterized by elongated figures, dramatic lighting, and spiritual intensity, was radical for his time and often misunderstood. Yet it was this bold individuality that made his art timeless.
+</p>
+
+<p class="mt-2">
+    Today, El Greco’s visionary compositions are celebrated not only for their technical brilliance but also for their profound emotional and symbolic depth. His influence can be seen echoing through the works of modernist masters such as Picasso and Cézanne, solidifying his place as a true pioneer in the evolution of Western art.
+</p>
+
+<p class="mt-2 italic text-indigo-700 font-medium">
+    This volume is a tribute to an artist who defied conventions and created a legacy that continues to inspire centuries later.
+</p>

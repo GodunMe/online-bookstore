@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-bold text-gray-800 mb-3">A Vanishing Act: A Classic Goddard Thriller</h3>
+
+<p>
+    In the shadow of World War II, <strong>Antwerp, 1939</strong>: a Jewish diamond trader makes a desperate escape from Nazi-occupied Europe. Entrusting his <strong>priceless collection of Picasso paintings and rare diamonds</strong> to a trusted friend, he hopes to reclaim them once safe in London. But tragedy strikes—his escape vessel sinks, and all on board are lost.
+</p>
+
+<p class="mt-3">
+    <strong>Decades later, in 1976</strong>, his now destitute family embarks on a search for the long-lost fortune. What begins as a quest for inheritance soon spirals into a dark mystery filled with <strong>secrets, deception, and betrayal</strong>.
+</p>
+
+<p class="mt-3">
+    This <em>classic thriller</em> bears all the hallmarks of <strong>Robert Goddard’s masterful storytelling</strong>—unexpected twists, morally complex characters, and a mystery that unravels piece by gripping piece.
+</p>
+
+<p class="mt-3 font-medium text-gray-700">
+    A richly woven tale of lost art, legacy, and long-buried truths—perfect for fans of historical suspense and elegant intrigue.
+</p>

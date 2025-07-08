@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>InhBookWorm - Nhà sách lớn nhất cả nước</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <style>
+        .content {
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            width: 80%;
+        }
+
+        .content h3{
+            color: rgb(0, 0, 255);
+        }
+
+        .method{
+            color: rgb(0, 0, 255);
+        }
+
+        .content span{
+            font-weight: bold;
+            color: red;
+        }
+
+        #web{
+            color: #008000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-taskbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <img src="img/logo-title.png" alt="Logo Title">
+        </div>
+
+        <div class="search-container">
+            <select id="filter" class="filter">
+                <option value="all">All cartegories</option>
+            </select>
+            <input id="search-box" type="text" placeholder="Search...">
+            <button class="search-btn"><img src="img/search.png" alt="Search"></button>
+
+        </div>
+        <div class="user-container">
+            <button class="cart-btn"><img src="img/cart.png" alt="Cart"></button>
+            <button class="avatar-btn"><img src="img/avatar.png" alt="Avatar"></button>
+        </div>
+    </div>
+    <div class="header-middle">
+        <div class="list"> <img src="img/list.png">
+            <select class="find-filter">
+                <option>Cartegories</option>
+            </select>
+        </div>
+        <div class="center-links">
+            <a href="home.html">Home page</a>
+            <a href="aboutUs.html">About us</a>
+            <select class="find-filter" onmousedown="this.children[0].style.display='none'"
+                onchange="window.location.href=this.value">
+                <option value="#">Support customer</option>
+                <option value="order.html">Ordering instructions</option>
+                <option value="transport.html">Form of transportation</option>
+                <option value="payment.html">Payment instructions</option>
+            </select>
+        </div>
+        <p>Hotline 0849.401.808</p>
+    </div>
+    <div class="content">
+        <h2>Order instructions</h2>
+        <p>At <span id="web">InhBookWorm.com</span>, customers can easily choose the books they want and place an order online with very
+            simple steps as follows:</p>
+
+        <h3>1. Select the product to purchase</h3>
+        <p>– Customers choose to view the product they wish to buy. <span id="web">InhBookWorm.com</span> provides detailed information
+            about the book, such as publisher, year of publication, table of contents, to help customers make the best
+            choice. Additionally, <span id="web">InhBookWorm.com</span> allows customers to preview some pages of the book through images.
+        </p>
+        <p>– After reviewing the product information, customers can click the <span>“BUY NOW”</span> button to purchase the book and
+            proceed to checkout or click <span>“ADD TO CART”</span> if they want to buy more products and continue selecting books.
+        </p>
+
+        <h3>2. Check the shopping cart</h3>
+        <p>– Customers can click on the <span>“CART”</span> button to view the list and quantity of products they have selected.</p>
+        <p>– Customers click the <span>“UPDATE”</span> button to update the quantity and total price of the order.</p>
+        <p>– Customers click the <span>“BUY NOW”</span> button to proceed to the next step.</p>
+
+        <h3>3. Provide shipping information</h3>
+        <p>– Customers fill in the required information in the fields.</p>
+        <p>– There is an order note section for special instructions (e.g., delivery time, recipient name).</p>
+        <p>– Customers are advised to provide clear and detailed information to ensure fast delivery.</p>
+
+        <h3>4. Choose shipping and payment methods for the order</h3>
+        <p class="method"><strong>A. Shipping methods:</strong></p>
+        <p>Customers choose the shipping method based on their location and the desired delivery time.
+            <span id="web">InhBookWorm.com</span> offers two shipping methods: <span>EXPRESS SHIPPING</span> and <span>STANDARD SHIPPING</span>.</p>
+
+        <p class="method"><strong>B. Payment methods:</strong></p>
+        <p><span id="web">InhBookWorm.com</span> provides two payment methods: <span>Cash on Delivery</span> (COD) and <span>Bank Transfer</span>.</p>
+
+        <h3>5. Confirm the order</h3>
+        <p>Customers review their <span>“Billing Address”</span>, <span>“Shipping Address”</span>, and <span>“Order Total”</span>. If the information is
+            correct, please click the <span>“SUBMIT ORDER”</span> button to confirm the order.</p>
+        <p>Note: We rely on the <span>Book Name</span> and/or <span>Book Code</span> to ensure the correct delivery of books.</p>
+
+        <p><strong>Thank you for shopping with us!</strong></p>
+
+    </div>
+</body>
+
+</html>

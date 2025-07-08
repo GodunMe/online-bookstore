@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<style>
+</style>
+<body>
+	<div style="text-align:center;">
+		<span class="title">Add new Book</span>
+	</div>
+	<form id="add-book-form" enctype="multipart/form-data">
+		<div class="flex" style="margin: 5rem 5rem" >
+			<div class="width-half" style="max-width: 600px;">
+				<div class="grid sub-field mb-1">
+					<label class="sub-title ">Book's Title:</label>
+					<input id="book-title" class="sub-content" required/>
+				</div>
+				<div class="grid sub-field mb-1">
+					<label class="sub-title">Author:</label>
+					<input id="author" class="sub-content" required/>
+				</div>
+				<div class="grid sub-field mb-1">
+					<label class="sub-title">Category</label>
+					<select id="category-selector" class="sub-content" required></select>
+				</div>
+				<div class="grid sub-field mb-1">
+					<label class="sub-title ">ISBN:</label>
+					<input id="isbn" class="sub-content" required/>
+				</div>
+				<div class="grid sub-field mb-1">
+					<label class="sub-title ">Price:</label>
+					<input type="number" id="price" class="sub-content" required/>
+				</div>
+			</div>
+			<div class="width-all" style="margin-left: 2rem">
+				<div class="grid width-all mb-1">
+					<label class="sub-title ">Overview</label>
+					<textarea id="overview" class="sub-content width-all" style="resize:none;max-width:600px;height:15rem" required></textarea>
+				</div>
+				
+				<div class="flex mb-1" style="max-width:600px;">
+					<label class="sub-title">Book Cover:</label>
+					<input type="file" id="image-upload" name="image" accept="image/*" style="display: none;" required/>
+					<label for="image-upload" class="sub-button add-button" style="margin-left:0.5rem">Upload cover</label>
+					<input type="text" id="image-url" readonly placeholder="Image name or path..." style="margin-left:0.5rem" required/>
+					<img id="preview" style="max-width: 50px;margin-left:0.5rem;display:none"/>
+				</div>
+			</div>
+		</div>
+		<div style="text-align:right;">
+			<button type="submit" class="button add-button">Add</button>
+		</div>
+	</form>
+	<div id="modal-container" class="modal-container"></div>
+</body>
+<script>
+	$(document).ready(function() {
+		
+		loadCategories();
+		
+		setupCategoryChangeHandler();
+		
+		$("#image-upload").on("change", function() {
+			const file = this.files[0];
+		    if (file && file.type.startsWith('image/')) {
+		      $('#image-url').val(file.name);
+		      
+		      const previewURL = URL.createObjectURL(file);
+		      $('#preview').attr('src', previewURL).show();
+		    } else {
+		      alert('Please select a valid image.');
+		      $('#image-upload').val('');
+		      $('#image-url').val('');
+		      $('#preview').hide();
+		    }
+		});
+		$("#add-book-form").on("submit", function(e) {
+			e.preventDefault();
+			const formData = new FormData();
+			formData.append('bookTitle', $("#book-title").val());
+			formData.append('author', $("#author").val());
+			formData.append('category', $("#category-selector").val()); 
+			formData.append('isbn', $("#isbn").val()); 
+			formData.append('price', $("#price").val()); 
+			formData.append('overview', $("#overview").val()); 
+			formData.append('image', $('#image-upload')[0].files[0]);
+			$.ajax({
+				url: 'data/books/add',
+				method: 'POST',
+			    data: formData,
+			    processData: false,
+			    contentType: false,
+				success: function(data) {
+					const isbn = $("#isbn").val();
+					$("main").empty().load("admin/book-detail/" + isbn);
+				},
+				error: function(xhr, status, error) {
+				    console.error("Error:", error);
+				}
+			});
+		});
+	});
+</script>
+</html>

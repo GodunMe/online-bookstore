@@ -1,0 +1,24 @@
+<section style="max-width: 800px; margin: 40px auto; padding: 30px; background-color: #1b1b1b; color: #f9f9f9; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); font-family: 'Georgia', serif; line-height: 1.7;">
+  <h2 style="font-size: 30px; color: #ff6b2d; margin-bottom: 10px;">The Fireman</h2>
+  <p style="font-style: italic; color: #cccccc; margin-bottom: 20px;">
+    From the award-winning, <strong>New York Times</strong> bestselling author of <em>NOS4A2</em> and <em>Heart-Shaped Box</em> comes a chilling novel about spontaneous combustion, a burning world, and the fire inside us all.
+  </p>
+
+  <blockquote style="font-size: 20px; font-weight: bold; color: #ffa366; margin: 30px 0;">
+    “The fireman is coming. Stay cool.”
+  </blockquote>
+
+  <p>
+    A mysterious pandemic spreads like wildfire—Boston, Detroit, Seattle fall one by one. Doctors call it <strong>Draco Incendia Trychophyton</strong>, but to most, it’s just <em>Dragonscale</em>: black and gold markings on the skin that eventually ignite the host in flames. With no cure in sight, fear turns to chaos.
+  </p>
+
+  <p>
+    Harper Grayson, a devoted nurse, begins noticing the telltale signs on her own body. Pregnant and determined to live long enough to give birth, she finds herself hunted by her own husband and the ruthless Cremation Squads. But she’s not alone. A man in a scorched fireman’s jacket—the only one who seems to master the Dragonscale—emerges from the ashes.
+  </p>
+
+  <p>
+    Known only as <strong>The Fireman</strong>, he can harness the fire burning within, using it to protect and destroy. Together, he and Harper will face a collapsing society, discover the truth behind the flames, and battle the terror threatening to consume them all.
+  </p>
+
+  <p style="color: #ff8c42; margin-top: 30px;"><strong>Can Harper survive long enough to save her unborn child… or will the world burn first?</strong></p>
+</section>

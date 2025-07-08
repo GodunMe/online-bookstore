@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<body>
+	<div id="book-management">
+		<div class="flex title-container">
+			<h1>Books</h1>
+			<div>
+				<span id="manage-category" class="button link-button bg-dark-yellow" data-href="/admin/category">Manage Category</span>
+				<span id="add-book" class="button link-button bg-dark-yellow" data-href="/admin/book/add">Add new Book</span>
+			</div>
+		</div>
+		
+		<table>
+			<thead>
+				<tr>
+					<th>ISBN</th>
+					<th>Thumbnail</th>
+					<th>Book Title</th>
+					<th>Author</th>
+					<th>Category</th>
+					<th>Quantity</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody id="book-list">
+			</tbody>
+		</table>
+	</div>
+</body>
+<script>
+	$(document).ready(function() {
+		$.ajax({
+			url: 'data/books',
+			method: 'GET',
+			success: function(data) {
+				$('#book-list').empty();
+				data.forEach(function(book) {
+					$("#book-list").append(
+						`
+						<tr class="book-product" data-href="admin/book-detail/${book.isbn}">
+						<td>${book.isbn}</td>
+						<td><img class="thumbnail" src="books/${book.bookURL}" alt="${book.bookTitle}"></td>
+						<td>${book.bookTitle}</td>
+						<td>${book.author}</td>
+						<td>${book.category.categoryName}</td>
+						<td>${book.stockQuantity}</td>
+						<td>${book.price}</td>
+						</tr>
+						`
+					);
+				});
+			},
+			error: function(xhr, status, error) {
+			    console.error("Error:", error);
+			}
+		});
+		
+		loadLinkButton();
+		
+		$("#book-list").on("click", ".book-product", function() {
+		    $("main").empty().load($(this).data("href"));
+		});
+	});
+</script>
+</html>

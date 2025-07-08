@@ -1,0 +1,14 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333;">
+  <h2 style="color: #c0392b;">Món Việt Truyền Thống – Hương Vị Gắn Kết Văn Hóa Dân Tộc</h2>
+  <p><strong>Nấu ăn</strong> không chỉ là kỹ năng sinh tồn mà còn là một <em>nghệ thuật tinh tế</em> đòi hỏi sự hiểu biết và tâm huyết của người đầu bếp. Từ thao tác thành thạo đến sự am hiểu nguyên liệu, mỗi món ăn đều phản ánh phong tục, tập quán và đời sống của một dân tộc.</p>
+  
+  <p>Ẩm thực truyền thống Việt Nam là kết quả của quá trình hình thành và phát triển lâu dài, kết tinh từ nền tảng văn hóa – xã hội đặc trưng của đất nước. Mỗi vùng miền, mỗi cộng đồng đều có những món ăn đặc trưng riêng, từ những món dân dã giản dị đến các đặc sản cầu kỳ.</p>
+  
+  <p>Không chỉ giữ gìn bản sắc, nền ẩm thực Việt còn tiếp thu, giao thoa với văn hóa ẩm thực các nước láng giềng. Những món ăn du nhập từ bên ngoài qua thời gian đã được điều chỉnh để phù hợp khẩu vị từng vùng, từng miền, rồi dần dần trở thành một phần quen thuộc trong bữa ăn hằng ngày của người Việt.</p>
+  
+  <div style="background-color: #fdf2e9; border-left: 5px solid #e67e22; padding: 1em; margin-top: 1em;">
+    <p><strong>Món Việt Truyền Thống</strong> là cuốn sách không chỉ giúp bạn học nấu ăn mà còn là hành trình khám phá bản sắc văn hóa dân tộc qua từng món ăn.</p>
+  </div>
+
+  <p style="color: #a0522d; font-weight: bold; margin-top: 1em;">Hãy mở sách, bước vào thế giới ẩm thực Việt và cùng gìn giữ tinh hoa từ gian bếp truyền thống!</p>
+</section>

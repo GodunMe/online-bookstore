@@ -1,0 +1,15 @@
+
+    <div class="w-full">
+      <h2 class="text-3xl font-semibold text-green-800 mb-4">Mystic Faerie Tarot</h2>
+      <p class="text-gray-700 mb-4">
+        <em>Step into a forgotten garden where the grass whispers secrets and wildflowers dance on the wind.</em>
+        Let a winding path guide you through a realm of faeries, sprites, elves, and nymphs—each offering insight, wonder, and inspiration for your journey through life.
+      </p>
+      <p class="text-gray-700 mb-4">
+        Featuring exquisite watercolor illustrations by celebrated fantasy artist <strong>Linda Ravenscroft</strong> and a magical guidebook by renowned tarot expert <strong>Barbara Moore</strong>, this deck opens the door to a world of enchantment.
+      </p>
+      <p class="text-gray-700">
+        <em>Mystic Faerie Tarot</em> was named one of <strong>Aeclectic Tarot’s Top Ten Decks</strong> in 2007, and continues to captivate seekers and dreamers alike.
+      </p>
+    </div>
+

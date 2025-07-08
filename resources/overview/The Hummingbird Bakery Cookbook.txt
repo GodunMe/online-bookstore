@@ -1,0 +1,28 @@
+<section style="max-width: 800px; margin: 40px auto; padding: 30px; background-color: #fff4f8; color: #3b1f2b; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); font-family: 'Georgia', serif; line-height: 1.7;">
+  <h2 style="font-size: 30px; color: #d63384; margin-bottom: 10px;">The Hummingbird Bakery Cookbook</h2>
+  <p style="font-style: italic; color: #7a4b5f; margin-bottom: 20px;">
+    Discover the magic of London’s favorite bakery with 60 irresistible recipes that blend stunning visuals with easy-to-follow instructions.
+  </p>
+
+  <p>
+    <strong>The Hummingbird Bakery</strong> is the go-to destination for Londoners who crave beautiful and delicious cakes. In this delectable collection, the chefs reveal their secrets for creating everything from <em>light, airy cupcakes</em> with buttercream frosting to <em>decadent chocolate layer cakes</em> and <em>zesty lemon meringue pies</em>.
+  </p>
+
+  <p>
+    The beauty of these recipes? They’re designed to impress without hours of effort in the kitchen. Whether you're baking for a party, tea time, or just a sweet craving, these recipes deliver both flavor and wow-factor.
+  </p>
+
+  <h3 style="color: #c7156f; margin-top: 25px;">Chapters include:</h3>
+  <ul style="list-style-type: square; margin-left: 20px;">
+    <li>Cupcakes</li>
+    <li>Cakes (loaf, layer, ring, cheesecakes)</li>
+    <li>Pies</li>
+    <li>Brownies and Bars</li>
+    <li>Muffins</li>
+    <li>Cookies</li>
+  </ul>
+
+  <p style="margin-top: 20px; color: #a0266d;">
+    Whether you're a seasoned baker or just starting out, these recipes bring a little slice of London sweetness to your home kitchen.
+  </p>
+</section>

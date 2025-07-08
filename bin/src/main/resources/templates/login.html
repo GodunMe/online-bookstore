@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="img/logo.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INH BOOK WORM</title>
+<style>
+:root{
+--theme: #0361a9;
+--login-form: rgb(242, 242, 242);
+
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url('img/background.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;  
+}
+
+.login-container {
+	background-color: var(--login-form);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 350px;
+	text-align: center;
+}
+.logo-icon{
+	text-align: center;
+	width: 20%; 
+}
+
+.logo-title{
+	text-align: center;
+	width: 70%;
+}
+
+
+.input-field {
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+button {
+	width: 96%;
+	padding: 10px;
+	background-color: var(--theme);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+.error-msg {
+	color: red;
+	font-size: 14px;
+
+	margin-top: 10px;
+}
+
+.success-msg {
+	color: green;
+	font-size: 14px;
+	display: none;
+	margin-top: 10px;
+}
+
+.links {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.links a {
+	color: #007bff;
+	text-decoration: none;
+	display: block;
+	margin-bottom: -10px;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+.links a:last-child {
+	margin-bottom: 0;
+}
+
+#show-password {
+	background: none;
+	border: none;
+	color: #007bff;
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: underline;
+	padding: 0;
+	margin-top: 5px;
+}
+</style>
+</head>
+<body>
+
+	<div class="login-container">
+
+		<!-- Form đăng nhập -->
+		<form action="/login" method="post" th:if="${!isLocked}">
+		 <img class="logo-icon" src="img/logo.png" alt="Logo">
+		 <br>
+		  <img class="logo-title" src="img/logo-title.png" alt="Logo">
+    <input class="input-field" type="email" name="email" placeholder="Email" required>
+
+    <div style="position: relative; width: 100%;">
+        <input class="input-field" type="password" id="password" name="password" placeholder="Password" required style="width: 90%;">
+    </div>
+
+    <div style="display: flex; justify-content: flex-start; margin-top: 5px; margin-left: 5px">
+        <label for="showPassword" style="display: flex; align-items: center; font-size: 14px;margin-bottom: 10px;">
+            <input type="checkbox" id="showPassword" style="margin-right: 5px;">
+            <span>Show Password</span>
+        </label>
+    </div>
+
+    <button type="submit">Login</button>
+    
+</form>
+		<p th:if="${errorMessage}" class="error-msg">[[${errorMessage}]]</p>
+		<!-- Thông báo thành công khi đăng nhập -->
+		<p th:if="${param.success}" class="success-msg">Login successful!</p>
+
+<script>
+    document.getElementById("showPassword").addEventListener("change", function() {
+        let passwordInput = document.getElementById("password");
+        passwordInput.type = this.checked ? "text" : "password";
+    });
+</script>
+		<!-- Hiển thị lỗi nếu email hoặc mật khẩu sai -->
+		
+
+		<div class="links" th:if="${!isLocked}">
+			<a href="#" id="forgot-password-link">Forgot Password?</a><br> 
+			<a href="#" id="create-account-link">Create New Account</a>
+		</div>
+	</div>
+
+	
+
+</body>
+</html>

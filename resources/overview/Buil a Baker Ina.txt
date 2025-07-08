@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-green-700 mb-2">Build a Baker Ina</h3>
+
+<p>
+    Meet Ina — a curious, cheerful little girl with one big dream: to become a baker! In <em>Build a Baker Ina</em>, young readers will follow Ina’s sweet adventure as she mixes flour, sugar, and a whole lot of heart to discover what it truly takes to make delicious treats.
+</p>
+
+<p class="mt-2">
+    With charming illustrations, fun baking-themed vocabulary, and a sprinkle of imagination, this delightful story encourages creativity, determination, and a love for learning.
+</p>
+
+<p class="mt-2">
+    Perfect for children ages 4–8, this book also includes a simple cookie recipe at the end so young readers can bake along with Ina at home!
+</p>
+
+<p class="mt-2 italic text-green-700 font-medium">
+    A heartwarming story for little dreamers and future bakers — full of fun, flour, and friendship.
+</p>

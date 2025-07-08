@@ -1,0 +1,21 @@
+<section style="font-family: 'Segoe UI', sans-serif; max-width: 700px; margin: 40px auto; padding: 30px; background-color: #fefefe; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); color: #333;">
+  <h2 style="color: #6b9c9c; font-size: 28px; margin-bottom: 15px;">Gentle Sleep Solutions for Children (0–5 Years)</h2>
+
+  <p style="font-size: 18px; line-height: 1.6;">Whatever the sleep problem you're facing, this guide provides gentle, age-appropriate solutions to help you and your child rest easier. Whether you're dealing with night wakings, contact napping, or feed-to-sleep habits, you'll find comforting advice here.</p>
+
+  <ul style="margin-top: 20px; font-size: 17px; padding-left: 20px; line-height: 1.6;">
+    <li><strong>0–3 Months:</strong> Gentle routines and soothing techniques</li>
+    <li><strong>3–6 Months:</strong> Building sleep confidence and cues</li>
+    <li><strong>6–12 Months:</strong> Supporting longer stretches of sleep</li>
+    <li><strong>12–24 Months:</strong> Navigating transitions and night wakings</li>
+    <li><strong>2–3 Years Plus:</strong> Managing independence and bedtime boundaries</li>
+  </ul>
+
+  <p style="margin-top: 25px; font-size: 17px;">Also includes a completely new chapter for:</p>
+  <ul style="font-size: 17px; padding-left: 20px; line-height: 1.6;">
+    <li>Babies fed to sleep</li>
+    <li>Babies reliant on contact to stay asleep</li>
+  </ul>
+
+  <p style="margin-top: 30px; font-style: italic; font-size: 16px; color: #777;">Gentle guidance for peaceful nights and well-rested families.</p>
+</section>

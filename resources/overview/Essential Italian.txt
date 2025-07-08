@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-blue-700 mb-2">Berlitz Essential Course</h3>
+
+<p>
+    The <strong>Berlitz Essential Course</strong> is your interactive gateway to mastering a new language with confidence. Now enhanced with a bonus audio CD and online activities at no additional cost, this course provides an immersive learning experience that combines structured lessons with modern flexibility.
+</p>
+
+<p class="mt-2">
+    Featuring <strong>twenty engaging lessons</strong> designed to build foundational language skills, the course is ideal for beginners or those looking to brush up their knowledge. Each unit includes practical vocabulary, grammar essentials, and conversational practice to ensure real-world application. Regular review sections help reinforce what you’ve learned and track your progress effectively.
+</p>
+
+<p class="mt-2">
+    The included <strong>audio CD</strong> features native speakers, giving you a model for accurate pronunciation and authentic speech patterns. Additionally, <strong>bonus online activities</strong> offer the freedom to practice anywhere, anytime—making learning convenient and enjoyable.
+</p>
+
+<p class="mt-2 italic text-blue-700 font-medium">
+    Whether you're preparing for travel, work, or personal enrichment, the Berlitz Essential Course offers a comprehensive, flexible, and enjoyable way to start your language-learning journey.
+</p>

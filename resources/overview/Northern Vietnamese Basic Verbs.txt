@@ -1,0 +1,27 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-green-700 mb-2">Northern Vietnamese Basic Verbs</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">Unlock the Power of Action Words in Everyday Vietnamese</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>Northern Vietnamese Basic Verbs</strong> is your go-to guide for mastering essential action words used in daily Northern Vietnamese conversations. Whether you're greeting someone, expressing a feeling, or describing your routine, this book provides the verbs you need to speak clearly and naturally.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Learn the most practical verbs in categories such as daily activities, movement, communication, thinking, and feelings — all presented with pronunciation help, grammar tips, and sample sentences for better retention and application.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>150+ high-use verbs sorted by theme</li>
+      <li>IPA pronunciation & English definitions</li>
+      <li>Real-life sample sentences</li>
+      <li>Grammar notes: tense, negation, aspect</li>
+      <li>Contrast with Southern dialect where relevant</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Speak Vietnamese with clarity and confidence. <br/>
+    Start mastering the verbs that give your language power and flexibility!
+  </p>
+</section>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+
+</head>
+<body>
+	<div id="book-details-title">
+		<span id="book-title" class="flex title view">Book 1</span>
+		<input id="update-book-title" class="title update hide" />
+		<span id="update" class="button update-button view">Update Book</span>
+		<span id="cancel" class="button delete-button update hide">Cancel Update</span>
+	</div>
+	<div id="book-details" th:data-isbn="${isbn}">
+		<div class="left-panel">
+			<div class="book-image view">
+				<img id="cover" src="img/avatar.png" alt="book" />
+			</div>
+			<div class="book-image update hide">
+				<img id="update-cover" src="img/avatar.png" alt="book" />
+				<div id="upload-image" class="update-cover-button hide">
+					<input type="file" id="image-upload" class="hide" name="image" accept="image/*" />
+					<label for="image-upload" class="sub-button update-button">Upload cover</label>
+				</div>
+			</div>
+			<div id="book-info">
+				<div class="grid">
+					<label class="sub-title mb-1">Author:</label>
+					<label class="sub-title mb-1">Category:</label>
+					<label class="sub-title mb-1">ISBN:</label>
+					<label class="sub-title mb-1">Sell Price:</label>
+					<label class="sub-title mb-1 view">Quantity:</label>
+				</div>
+				<div class="grid view">
+					<span id="author" class="sub-content mb-1"></span>
+					<span id="category" class="sub-content mb-1"></span>
+					<span id="isbn" class="sub-content mb-1"></span>
+					<span id="price" class="sub-content mb-1"></span>
+					<span id="quantity" class="sub-content mb-1"></span>
+				</div>
+				<div class="grid update hide">
+					<input id="update-author" class="sub-content mb-1" />
+					<select id="category-selector" class="sub-content mb-1" ></select>
+					<input id="update-isbn" class="sub-content mb-1" disabled />
+					<input id="update-price" class="sub-content mb-1" />
+				</div>
+			</div>
+		</div>
+
+		<div class="right-panel">
+			
+			<div>
+				<label class="sub-title" style="font-size:30px;">Overview</label>
+				<div id="overview" class="overview view">
+				</div>
+				<div id="update-overview" class="overview update hide" contenteditable="true">
+				</div>
+			</div>
+			<div class="actions flex view" style="justify-content:space-between;align-items:center;">
+				<label class="sub-title" for="quantity-add">Add quantity:</label>
+				<form id="add-quantity">
+					<input id="quantity-add" type="number" style="margin-right:10px;height:30px;"/>
+					<input type="submit" class="sub-button add-button" value="Add"/>
+				</form>
+			</div>
+			<div class="actions" style="text-align:center;">
+				<span id="delete" class="button delete-button view">Delete Book</span>
+				<span id="confirm" class="button update-button update hide">Confirm Update</span>
+			</div>
+		</div>
+	</div>
+	<div id="modal-container" class="modal-container"></div>
+</body>
+
+<script>
+	//Run when document fully loaded
+	$(document).ready(function() {
+		
+		//Get book details - view side
+		function viewBookDetails() {
+			$.ajax({
+				url : 'data/books/' + $("#book-details").data("isbn"),
+				method : 'GET',
+				success : function(book) {
+					$("#book-title").text(book.bookTitle);
+					$("#cover").attr("src", "books/" + book.bookURL);
+					$("#author").text(book.author);
+					$("#category").text(book.category.categoryName);
+					$("#price").text(book.price);
+					$("#quantity").text(book.stockQuantity);
+					$("#isbn").text(book.isbn);
+					$("#overview").text(book.overview);
+					
+				},
+				error : function(xhr, status, error) {
+				}
+			});
+		};
+		
+		//Get book details - update side
+		function updateBookDetails() {
+			$.ajax({
+				url : 'data/books/' + $("#book-details").data("isbn"),
+				method : 'GET',
+				success : function(book) {		
+					$("#update-book-title").val(book.bookTitle);
+					$("#update-cover").attr("src", "books/" + book.bookURL);
+					$("#update-author").val(book.author);
+					$("#update-price").val(book.price);
+					$("#category-selector").val(book.category.categoryName);
+					$("#update-isbn").val(book.isbn);
+					$("#update-overview").text(book.overview);
+				},
+				error : function(xhr, status, error) {
+				}
+			});
+		};
+		
+		viewBookDetails();
+		
+		//Add book's quantity
+		$("#add-quantity").on("submit", function(e) {
+			e.preventDefault();
+			if ($("#quantity-add").val() === '') {
+				console.log('No quantity added.');
+				return;
+			}
+			const formData = new FormData();
+			formData.append('isbn', $("#isbn").text());
+			formData.append('quantity-add', $("#quantity-add").val());
+			
+			$.ajax({
+				url: 'data/book-detail/add-quantity',
+				method: 'PUT',
+			    data: formData,
+			    processData: false,
+			    contentType: false,
+				success: function(data) {
+					viewBookDetails();
+				},
+				error: function(xhr, status, error) {
+				    console.error("Error:", error);
+				}
+			});
+		});
+		
+		//Change to update side
+		$("#update").click(function() {
+			loadCategories();
+			$(".view").addClass("hide");
+			$(".update").removeClass("hide");
+			updateBookDetails();
+		});
+		
+		//Quick add new category option
+		setupCategoryChangeHandler();
+		
+		//Change to view side
+		$("#cancel").click(function() {
+			$(".update").addClass("hide");
+			$(".view").removeClass("hide");
+			viewBookDetails();
+		});
+		
+		//For upload image
+		$("#update-cover").mouseenter(function() {
+			$("#upload-image").removeClass("hide");
+		});
+		$("#upload-image").mouseleave(function() {
+			$("#upload-image").addClass("hide");
+		});
+		
+		//Confirm update book data
+		$("#confirm").click(function() {
+			
+			const formData = new FormData();
+			formData.append('bookTitle', $("#update-book-title").val());
+			formData.append('author', $("#update-author").val());
+			formData.append('category', $("#category-selector").val()); 
+			formData.append('isbn', $("#update-isbn").val()); 
+			formData.append('price', $("#update-price").val()); 
+			formData.append('overview', $("#update-overview").text()); 
+			const cover = $('#image-upload')[0].files[0];
+			if (!cover) {
+				$.ajax({
+					url: 'data/book-detail/update',
+					method: 'PUT',
+				    data: formData,
+				    processData: false,
+				    contentType: false,
+					success: function(data) {
+						$("#cancel").click();
+					},
+					error: function(xhr, status, error) {
+					    console.error("Error:", error);
+					}
+				});
+			} else {
+				formData.append('image', cover);
+				$.ajax({
+					url: 'data/book-detail/update-with-cover',
+					method: 'PUT',
+				    data: formData,
+				    processData: false,
+				    contentType: false,
+					success: function(data) {
+						$("#cancel").click();
+					},
+					error: function(xhr, status, error) {
+					    console.error("Error:", error);
+					}
+				});
+			}
+		});
+		
+		$("#image-upload").on("change", function() {
+			const file = this.files[0];
+		    if (file && file.type.startsWith('image/')) {
+		      const previewURL = URL.createObjectURL(file);
+		      $('#update-cover').attr('src', previewURL);
+		    } else {
+		      alert('Please select a valid image.');
+		      $('#image-upload').val('');
+		    }
+		});
+		
+		//Delete book
+		$("#delete").click(function() {
+			$.ajax({
+				url: 'data/book-detail/delete/' + $("#isbn").text(),
+				method: 'DELETE',
+				success: function(data) {
+					$("main").empty().load("/admin/book");
+				},
+				error: function(xhr, status, error) {
+				    console.error("Error:", error);
+				}
+			});
+		});
+		
+	});
+</script>
+</html>

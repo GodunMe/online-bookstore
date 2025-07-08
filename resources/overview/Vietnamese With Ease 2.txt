@@ -1,0 +1,38 @@
+<section class="max-w-5xl mx-auto p-8 bg-white shadow-lg rounded-2xl mt-10">
+  <h1 class="text-3xl font-bold text-green-700 mb-2">Vietnamese with Ease 2</h1>
+  <h2 class="text-xl font-semibold text-gray-800 mb-6">Tiếng Việt dễ dàng hơn - Tập 2 (Trình độ A2–B1)</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>Vietnamese with Ease 2</strong> là cuốn sách thứ hai trong bộ giáo trình <em>Vietnamese with Ease</em>, phù hợp với trình độ sơ trung cấp (A2–B1). Cuốn sách tiếp nối nền tảng từ tập 1, giúp người học phát triển toàn diện kỹ năng <strong>nghe, nói, đọc, viết</strong> trong tiếng Việt thông qua các bài học thực tế và sinh động.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Mỗi bài học được thiết kế rõ ràng với hình ảnh minh họa bắt mắt, giải thích ngắn gọn và đơn giản. Người học sẽ tiếp cận từ vựng theo chủ đề thông qua hình ảnh và bài tập đơn giản, học ngữ pháp qua các tình huống giao tiếp thực tế.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Từ vựng theo chủ đề</li>
+      <li>Đối thoại & Ngữ pháp</li>
+      <li>Đọc hiểu</li>
+      <li>Luyện viết</li>
+    </ul>
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Luyện phát âm</li>
+      <li>Ghi chú văn hóa (tiếng lóng, trò chơi, âm nhạc)</li>
+      <li>Tự đánh giá</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-700 mb-4">
+    Các nội dung văn hóa đặc sắc, tiếng lóng và bài hát Việt Nam giúp bài học trở nên thú vị hơn. Phần đánh giá cuối mỗi bài cho phép người học tự xác định điểm mạnh và điểm cần cải thiện.
+  </p>
+
+  <p class="text-gray-700 mb-6">
+    Với phương pháp học dựa trên thực hành và ứng dụng, <strong>Vietnamese with Ease 2</strong> chắc chắn sẽ là người bạn đồng hành đáng tin cậy trên hành trình làm chủ tiếng Việt của bạn.
+  </p>
+
+  <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white font-medium px-6 py-2 rounded-full transition">
+    Tìm hiểu thêm
+  </a>
+</section>

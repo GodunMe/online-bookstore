@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Complete Bike Book</h2>
+  <p class="text-gray-700 mb-4">
+    Whether you're a weekend rider or a seasoned cyclist, <em>Complete Bike Book</em> is your ultimate guide to cycling performance, maintenance, and safety. This all-in-one handbook helps you choose the right bike, refine your riding skills, and care for your bicycle like a pro.
+  </p>
+  <p class="text-gray-700 mb-4">
+    Packed with step-by-step photographs and clear instructions, the book covers everything from basic setup and simple repairs to advanced maintenance techniques. You'll also find expert tips on riding posture, fitness training, and staying safe on the road.
+  </p>
+  <p class="text-gray-700 mb-4">
+    With professional insights and a foreword by Olympic gold medalist <strong>Chris Boardman, MBE</strong>, this updated edition brings a fresh look to an essential resource. <strong>Complete Bike Book</strong> is the go-to companion for cyclists of all experience levels.
+  </p>
+</div>

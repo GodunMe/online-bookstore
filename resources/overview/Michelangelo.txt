@@ -1,0 +1,18 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333;">
+  <h2 style="color: #d2691e;">Make Every Meal a Celebration</h2>
+  <p><strong style="color: #b22222;">Molly Fowler</strong>, also known as the <em>Dining Diva</em>, believes that any occasion is a great excuse to gather, eat, and connect. Whether it’s laughter that lingers or heart-to-hearts over homemade dishes, entertaining at home offers something truly special—genuine togetherness.</p>
+  
+  <p>But why do so many of us shy away from hosting? Often, it’s because our last experience felt more stressful than joyful. That’s where <strong><em>Menus for Entertaining</em></strong> comes in—a practical, beautifully designed kitchen companion that helps you plan unforgettable meals without the chaos.</p>
+  
+  <ul style="background-color: #fffaf0; padding: 1em; border-left: 5px solid #f4a460;">
+    <li>Curated menus with perfectly matched flavors and elegant presentation</li>
+    <li>Step-by-step <strong>Culinary Countdown</strong> to help you stay on schedule</li>
+    <li>Real, full-color photos of each dish—what you see is what you make</li>
+    <li>Make-ahead tips and wine pairings for every meal</li>
+    <li>Smart shopping lists organized by grocery store sections</li>
+  </ul>
+
+  <p>With this guide, you can spend less time in the kitchen and more time with your guests. Just pick a menu, send the invites, follow the plan, and most importantly—enjoy the moment.</p>
+
+  <p style="color: #a0522d; font-weight: bold;">Be the host who’s relaxed, prepared, and fully present. Entertaining should be as enjoyable for you as it is for your guests!</p>
+</section>

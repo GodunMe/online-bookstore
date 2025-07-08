@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <link rel="icon" type="image/png" href="/img/logo.png" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title th:text="${book.bookTitle}">Book Detail</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="/css/home.css" />
+    </head>
+
+    <body class="h-screen w-full m-0 p-0 overflow-hidden">
+        <div class="flex h-full w-full">
+            <!-- Sidebar -->
+            <aside id="sidebar" class="w-1/5 bg-white shadow-md p-4 flex flex-col space-y-4">
+                <h1 class="text-xl font-bold flex items-center space-x-2">
+                    <img src="/img/logo.png" alt="logo" />
+                    <img src="/img/logo-title.png" alt="logo-title" />
+                </h1>
+
+                <nav id="sidebar-nav" class="space-y-2">
+                    <a href="/home" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Home</a>
+
+                    <div class="relative">
+                        <button id="categories-btn" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Categories</button>
+                        <div id="categories-menu" class="hidden absolute top-0 left-full ml-2 w-auto min-w-max max-h-96 overflow-y-auto border rounded-md bg-white shadow z-10 gap-2 p-2">
+                            <a th:each="category : ${categories}" th:href="@{'/category/' + ${category.categoryName}}" class="block text-left px-4 py-2 hover:bg-gray-100 whitespace-nowrap" th:text="${category.categoryName}"></a>
+                        </div>
+                    </div>
+
+                    <a href="/wish-list" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Wish list</a>
+                    <a href="/aboutUs" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">About us</a>
+                    <a href="/help" class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Help</a>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <div class="flex flex-col flex-1 overflow-auto">
+                <!-- Topbar -->
+                <header class="w-full h-16 bg-white shadow-md flex items-center px-6 justify-between flex-shrink-0">
+                    <form action="/search" method="get" class="relative w-1/3">
+                        <input type="text" name="query" placeholder="Search books..." id="searchInput" class="p-2 pr-8 border rounded-md w-full" oninput="toggleClearButton()" />
+
+                        <button
+                            type="button"
+                            id="clearButton"
+                            onclick="clearSearch()"
+                            class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-gray-200 hover:bg-gray-300 text-gray-600 hover:text-black w-6 h-6 flex items-center justify-center rounded-full text-sm hidden"
+                        >
+                            ✕
+                        </button>
+                    </form>
+                    <div class="flex items-center space-x-8 pr-6">
+                        <a href="/session/cart" class="text-xl">🛒</a>
+                        <div class="relative inline-block text-left">
+                            <button id="userMenuButton" class="focus:outline-none">👤</button>
+                            <!-- Menu dropdown -->
+                            <div id="userDropdown" class="hidden absolute right-0 mt-2 w-40 bg-white border rounded shadow-lg z-50">
+                                <ul class="py-1 text-sm text-gray-700">
+                                    <!-- !login -->
+                                    <li th:if="${loggedInUser == null}"><a href="/login" class="block px-4 py-2 hover:bg-gray-100">Login</a></li>
+                                    <li th:if="${loggedInUser == null}"><a href="/register" class="block px-4 py-2 hover:bg-gray-100">Register</a></li>
+                                    <!-- login -->
+                                    <li th:if="${loggedInUser != null}"><a href="/profile" class="block px-4 py-2 hover:bg-gray-100">View Profile</a></li>
+                                    <li th:if="${loggedInUser != null}"><a href="/logout" class="block px-4 py-2 hover:bg-gray-100">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Main Book Detail -->
+                <main id="main-content" class="p-8">
+                    <div class="max-w-6xl mx-auto">
+                        <div class="flex flex-col md:flex-row gap-8">
+                            <div class="md:w-1/3 flex flex-col items-center">
+                                <img th:src="@{'/books/' + ${book.bookURL}}" alt="Book Cover" class="rounded shadow w-full" />
+                                <button
+                                    id="wishlistBtn"
+                                    class="mt-4 w-full py-2 border-2 rounded-md"
+                                    th:classappend="${isInWishList == true} ? 'border-red-500 text-red-600 hover:bg-red-50' : 'border-yellow-400 text-yellow-600 hover:bg-yellow-50'"
+                                    th:disabled="${book.stockQuantity > 0 or (isInWishList == true)}"
+                                    th:text="${isInWishList == true and book.stockQuantity == 0} ? '❤️ Favorited' : '💛 Add to Wish List'"
+                                    th:attr="data-book-id=${book.bookId}"
+                                ></button>
+                            </div>
+                            <div class="md:w-2/3 space-y-4" th:data-book-id="${bookId}">
+                                <h1 class="text-3xl font-bold" th:text="${book.bookTitle}"></h1>
+                                <p>By: <span class="text-blue-500" th:text="${book.author}"></span></p>
+                                <p>Category: <span class="text-blue-500" th:text="${book.category.categoryName}"></span></p>
+                                <p class="text-red-600 text-2xl font-semibold" th:text="${book.price + 'đ'}"></p>
+                                <p>🔖 <strong>ISBN:</strong> <span th:text="${book.ISBN}"></span></p>
+                                <p>
+                                    📦 <strong>Availability:</strong>
+                                    <span
+                                        class="px-2 py-1 rounded text-sm font-medium"
+                                        th:classappend="${book.stockQuantity > 0} ? 'bg-yellow-300 text-black' : 'bg-red-500 text-white'"
+                                        th:text="${book.stockQuantity > 0 ? book.stockQuantity + ' left(s)' : 'Out of Stock'}"
+                                    >
+                                    </span>
+                                </p>
+
+                                <div class="flex gap-4">
+                                    <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Buy Now</button>
+                                    <button class="add-to-cart-btn bg-yellow-400 text-black px-4 py-2 rounded hover:bg-yellow-500" th:data-book-id="${book.bookId}">Add to cart</button>
+                                </div>
+                                <div id="notification" class="hidden text-sm font-medium"></div>
+                            </div>
+                        </div>
+
+                        <div class="mt-12">
+                            <h2 class="text-xl font-bold text-red-500">BOOK OVERVIEW</h2>
+                            <div class="mt-4 text-gray-700 leading-relaxed" th:utext="${overviewFromFile}"></div>
+                        </div>
+                    </div>
+                </main>
+
+                <!-- Footer -->
+                <footer id="footer" class="bg-gray-800 text-white text-center p-4 opacity-100">
+                    &copy; 2025 InhBookWorm Store. All rights reserved.
+                </footer>
+            </div>
+        </div>
+    </body>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <script src="/js/home.js"></script>
+    <script th:inline="javascript">
+        const wishlistBtn = document.getElementById("wishlistBtn");
+        const bookId = wishlistBtn.getAttribute("data-book-id");
+        let isFavorite = false;
+        let isLoggedIn = /*[[${loggedInUser != null}]]*/ false;
+        if (wishlistBtn) {
+            wishlistBtn.addEventListener("click", () => {
+                if (!isLoggedIn) {
+                    window.location.href = "/login";
+                    return;
+                }
+
+                fetch("/add-to-wish-list", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                    },
+                    body: "bookId=" + bookId,
+                })
+                    .then((response) => {
+                        if (response.ok) {
+                            wishlistBtn.innerHTML = "❤️ Favorited";
+                            wishlistBtn.classList.remove("border-yellow-400", "text-yellow-600", "hover:bg-yellow-50");
+                            wishlistBtn.classList.add("border-red-500", "text-red-600", "hover:bg-red-50");
+                            wishlistBtn.disabled = true;
+                        } else if (response.status === 401) {
+                            window.location.href = "/login";
+                        } else {
+                            alert("⚠️ Failed to add book to wish list");
+                        }
+                    })
+                    .catch((error) => {
+                        console.error("❌ Error:", error);
+                        alert("⚠️ Something went wrong. Try again later.");
+                    });
+            });
+        }
+        function addToWishList(button) {
+            const bookId = button.getAttribute("data-book-id");
+            fetch("/add-to-wish-list", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: "bookId=" + bookId,
+            })
+                .then((res) => res.text())
+                .then((data) => {
+                    alert(data);
+                    location.reload();
+                })
+                .catch((err) => {
+                    console.error(err);
+                    alert("Error adding to wishlist");
+                });
+        }
+
+        $(document).ready(function () {
+            implAddToCartButton();
+            initLayoutBehavior();
+        });
+    </script>
+</html>

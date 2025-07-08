@@ -1,0 +1,31 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-green-800 mb-2">Targeting Grammar Activity Book Series</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">A Comprehensive Pathway to Grammar Mastery</h2>
+
+  <p class="text-gray-700 mb-4">
+    The <strong>Targeting Grammar Activity Book Series</strong> is a thoughtfully crafted educational resource designed to develop students’ grammar and punctuation skills. With a clear, progressive scope and sequence, each book offers step-by-step instruction that empowers learners to become confident and capable communicators.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Tailored for each year level, these books provide age-appropriate grammar conventions supported by engaging activities, examples, and explanations. Students are guided to not only understand grammar elements but also apply them practically in both reading and writing contexts.
+  </p>
+
+  <h3 class="text-lg font-semibold text-gray-800 mt-6 mb-2">Key Areas of Study</h3>
+  <ul class="list-disc list-inside text-gray-700 mb-6">
+    <li>Nouns</li>
+    <li>Pronouns</li>
+    <li>Adjectives</li>
+    <li>Verbs</li>
+    <li>Adverbs</li>
+    <li>Sentences</li>
+  </ul>
+
+  <p class="text-gray-700 mb-4">
+    Each section includes <strong>definitions, examples, and hands-on activities</strong> that reinforce understanding and application. A removable answer section is also provided for easy checking and self-assessment, making it perfect for both classroom and home learning environments.
+  </p>
+
+  <p class="text-gray-600 italic">
+    Equip students with the grammar tools they need for success in literacy. <br />
+    <strong>Targeting Grammar</strong> makes grammar practice effective, enjoyable, and meaningful.
+  </p>
+</section>

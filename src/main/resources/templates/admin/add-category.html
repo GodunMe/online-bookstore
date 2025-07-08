@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<body>
+	<div id="modal" class="modal close">
+		<div id="modal-content" class="modal-content">
+			<h2 class="title">Add category</h2>
+			<input id="category-input" type="text" placeholder="Type here..." style="height:30px;" />
+			<span id="add" class="sub-button-link">Add</span>
+			<p id="status-message"><p>
+		</div>
+	</div>
+</body>
+<script class="close">
+	$(document).ready(function() {
+		$("#modal").click(function(event) {
+			$(".close").remove();
+		});
+		$("#modal-content").click(function(event) {
+			event.stopPropagation();
+		});
+		let timeout;
+		$("#category-input").on("input", function() {
+			$("#add").removeClass("add-button");
+			$("#status-message").empty();
+			clearTimeout(timeout);
+			const input = $(this);
+		    timeout = setTimeout(function () {
+				$.ajax({
+					url : '/data/categories/check-name/' + $("#category-input").val(),
+					method : 'GET',
+					success : function(data) {
+						console.log(data);
+						if (data !== "Valid") {
+							$("#status-message").append(`<span style="color:#ff0000">${data}</span>`);
+						} else {
+							$("#add").addClass("add-button");
+						}
+					},
+					error : function(xhr, status, error) {
+						console.error("Error:", error);
+					}
+				});
+		    }, 1000);
+		});
+		
+		
+		$("#modal-content").on("click", ".add-button", function() {
+			$.ajax({
+				url : 'data/categories/add/' + $("#category-input").val(),
+				method : 'POST',
+				success : function() {
+					$("#modal-content").empty().append(`<span class="title" style="color:#00ff00">Add successfully!</span>`);
+					loadCategories();
+					setTimeout(function() {
+						$(".close").remove();
+					}, 1000);
+				},
+				error : function(xhr, status, error) {
+					console.error("Error:", error); 
+					
+				}
+			});
+		});
+	});
+  
+</script>
+</html>
+
+

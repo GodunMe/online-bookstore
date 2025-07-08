@@ -1,0 +1,22 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #c0392b;">Jason Bourne – The Past Never Forgets</h2>
+  
+  <p><strong>A man with no memory</strong> is pulled from the sea, caught in the nets of a fishing boat. He has no idea who he is or how he got there—only a passport with the name <em>Jason Bourne</em>.</p>
+
+  <p>Through three explosive novels—<em>The Bourne Identity</em>, <em>The Bourne Supremacy</em>, and <em>The Bourne Ultimatum</em>—the mystery unravels. He discovers he is both <strong>David Webb</strong>, a mild-mannered professor, and <strong>Jason Bourne</strong>, a lethal weapon trained for covert missions.</p>
+  
+  <p>Now, David Webb is living a quiet life in rural America with his wife and children, having buried the past. But the past is not done with him. A deadly assassin is closing in, his former handler has already been murdered, and a hidden enemy wants Jason Bourne out of the game—for good.</p>
+
+  <div style="background-color: #fdf2f2; border-left: 5px solid #e74c3c; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Thrilling espionage and high-stakes action</li>
+      <li>A compelling duality of identity: man vs. weapon</li>
+      <li>Danger at every turn, betrayal at every corner</li>
+      <li>The fight for family, survival, and truth</li>
+    </ul>
+  </div>
+
+  <p style="color: #a93226; font-weight: bold;">
+    To save his family, David Webb must once again become Jason Bourne. And this time, the stakes are more personal than ever.
+  </p>
+</section>

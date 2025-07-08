@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Memoir of Giles Darby: Life After the Fall</h2>
+  <p class="text-gray-700 mb-4">
+    This gripping memoir by Giles Darby, one of the infamous "NatWest Three," offers a raw and deeply personal account of a British banker's fall from grace and his journey through the American justice system. Convicted for his role in a $7 million fraud case linked to the Enron scandal, Darby was extradited to the U.S. after nearly a decade of legal battles and served time in Pennsylvania's Allenwood prison.
+  </p>
+  <p class="text-gray-700 mb-4">
+    From the boardrooms of high finance to the brutal routines of prison life, Darby candidly shares his experience of adaptation, resilience, and unexpected camaraderie. Through heartfelt letters to his family, he recounts the pain of isolation, the chaos of prison culture, and the surreal encounters with fellow inmates that offered moments of reflection and unexpected humor.
+  </p>
+  <p class="text-gray-700 mb-4">
+    More than just a story of crime and punishment, this memoir sheds light on the political and ethical complexities of international extradition, and the human strength found in the darkest of places. A powerful, eye-opening narrative from inside the system.
+  </p>
+</div>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <link rel="icon" type="image/png" href="img/logo.png" />
+        <title>register</title>
+        <link rel="stylesheet" href="css/register.css" />
+    </head>
+
+    <body>
+        <div class="register-contain">
+            <div id="register-form">
+                <div id="logo">
+                    <a><img src="img/logo.png" alt="logo icon" id="logo-icon" /></a>
+                    <br />
+                    <a><img src="img/logo-title.png" alt="logo title" id="logo-title" /></a>
+                </div>
+                <form action="#" th:action="@{/register}" th:object="${registerform}" method="POST">
+                    <div class="field">
+                        <div class="form-row">
+                            <div class="form-column"><label>First Name</label> <input type="text" id="new-name" name="firstName" placeholder="First Name" required th:field="*{firstName}" /></div>
+                            <div class="form-column"><label>Last Name</label> <input type="text" id="new-lastname" name="lastName" placeholder="Last Name" required th:field="*{lastName}" /></div>
+                        </div>
+                        <div class="error-message-box" th:if="${errors?.get('name')}">
+                            <span th:text="${errors.get('name')}" style="color: red;"></span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Gender</label>
+                        <select id="new-gender" name="gender" required th:field="*{gender}">
+                            <option value="" disabled>Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label>Phone Number</label>
+                        <input type="text" id="new-phone" name="phoneNum" placeholder="Phone Number" required th:field="*{phoneNum}" />
+                        <div class="error-message-box" th:if="${errors?.get('phone')}">
+                            <span th:text="${errors.get('phone')}" style="color: red;"></span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label>Email</label>
+                        <div style="display: flex; gap: 10px;">
+                            <input type="email" id="new-email" name="email" placeholder="Email" required th:field="*{email}" oninput="hideOtpField()" />
+                            <button type="button" onclick="sendOTP()" id="send-otp-btn">Send OTP</button>
+                        </div>
+                        <div class="error-message-box" th:if="${errors?.get('email')}">
+                            <span th:text="${errors.get('email')}" style="color: red;"></span>
+                        </div>
+                    </div>
+
+                    <div class="field" id="otp-field" style="display: none;">
+                        <label>Enter OTP</label>
+                        <div style="display: flex; gap: 10px;">
+                            <input type="text" id="otp-input" name="otp" placeholder="OTP code" />
+                            <button type="button" onclick="verifyOtp()" id="verify-otp-btn">Verify OTP</button>
+                        </div>
+                        <div id="otp-message" style="color: red;"></div>
+                    </div>
+
+                    <div class="field">
+                        <label>Password</label>
+                        <input type="password" id="new-password" placeholder="Password" required th:field="*{password}" />
+                        <div class="error-message-box" th:if="${errors?.get('password')}">
+                            <span th:text="${errors.get('password')}" style="color: red;"></span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label>Confirm Password</label>
+                        <input type="password" id="confirm-password" placeholder="Confirm Password" required th:field="*{confirmpassword}" />
+                        <div class="error-message-box" th:if="${errors?.get('confirmpass')}">
+                            <span th:text="${errors.get('confirmpass')}" style="color: red;"></span>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <button type="submit" id="button"><img src="img/lock.png" /> Register</button>
+                        <span>or</span> <a href="login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            function verifyOtp() {
+                const otp = document.getElementById("otp-input").value;
+                const email = document.getElementById("new-email").value;
+                const messageBox = document.getElementById("otp-message");
+
+                if (!otp || !email) {
+                    messageBox.textContent = "Please enter both email and OTP.";
+                    messageBox.style.color = "red";
+                    return;
+                }
+
+                fetch("/verify-otp?otp=" + encodeURIComponent(otp) + "&email=" + encodeURIComponent(email), {
+                    method: "POST",
+                })
+                    .then((response) => response.text())
+                    .then((text) => {
+                        if (text === "OTP is valid.") {
+                            messageBox.textContent = "✅ OTP verified successfully!";
+                            messageBox.style.color = "green";
+                        } else {
+                            messageBox.textContent = "❌ " + text;
+                            messageBox.style.color = "red";
+                        }
+                    })
+                    .catch((error) => {
+                        messageBox.textContent = "❌ Verification failed.";
+                        messageBox.style.color = "red";
+                        console.error(error);
+                    });
+            }
+
+            let otpCooldown = false;
+            let otpExpireTimer;
+            let otpCooldownTimer;
+
+            function sendOTP() {
+                if (otpCooldown) return;
+
+                const email = document.getElementById("new-email").value;
+                if (!email) {
+                    alert("Please enter your email before requesting OTP.");
+                    return;
+                }
+                startOtpCooldown();
+                startOtpExpireCountdown();
+                fetch("/send-otp?email=" + encodeURIComponent(email)).then((response) => {
+                    if (response.ok) {
+                        showOtpField();
+                        alert("OTP code is sent");
+                    } else {
+                        alert("Unable to send OTP. Please try again later.");
+                    }
+                });
+            }
+
+            function showOtpField() {
+                document.getElementById("otp-field").style.display = "block";
+            }
+
+            function hideOtpField() {
+                document.getElementById("otp-field").style.display = "none";
+                clearTimeout(otpExpireTimer);
+            }
+
+            function startOtpCooldown() {
+                otpCooldown = true;
+                const btn = document.getElementById("send-otp-btn");
+                btn.disabled = true;
+                btn.textContent = "Resend";
+
+                let timeLeft = 60;
+                //btn.textContent = 'Resend (${timeLeft}s)';
+                otpCooldownTimer = setInterval(() => {
+                    timeLeft--;
+                    btn.textContent = `Resend (${timeLeft}s)`;
+                    if (timeLeft <= 0) {
+                        clearInterval(otpCooldownTimer);
+                        btn.disabled = false;
+                        btn.textContent = "Resend OTP";
+                        otpCooldown = false;
+                    }
+                }, 1000);
+            }
+
+            function startOtpExpireCountdown() {
+                otpExpireTimer = setTimeout(() => {
+                    document.getElementById("otp-error").textContent = "OTP code has expired. Please request a new one.";
+                }, 5 * 60 * 1000);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-indigo-800 mb-4">Joan of Arc</h2>
+  <p class="text-gray-700 mb-4">
+    Based on original historical documents and translated by Regine Pernoud, <em>Joan of Arc</em> brings to life the story of one of history’s most enigmatic and inspiring figures. This remarkable book seeks to answer timeless questions: Who was Joan of Arc? Where did she come from? What shaped her extraordinary life and achievements?
+  </p>
+  <p class="text-gray-700 mb-4">
+    First published in the United States in 1966, this compelling account reveals the historical Joan as seen by both her supporters and her adversaries. Drawing on firsthand testimonies and official records, it presents a vivid, authentic portrait of the young woman who led armies and challenged kings, all before her tragic martyrdom.
+  </p>
+  <p class="text-gray-700">
+    A thoughtful and deeply researched work, <strong>Joan of Arc</strong> sheds light on the mystery behind the legend and allows readers to encounter the real person behind the myth.
+  </p>
+</div>

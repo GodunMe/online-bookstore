@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">To The Finish Line</h2>
+  <p class="text-gray-700 mb-4">
+    From the world’s number one female Ironman athlete and four-time World Ironman Champion, <strong>Chrissie Wellington</strong> shares the wisdom, lessons, and determination that defined her extraordinary career.
+  </p>
+  <p class="text-gray-700 mb-4">
+    In <em>To The Finish Line</em>, Wellington brings the dynamic world of triathlon to life—whether you’re a complete beginner or an experienced athlete chasing your personal best. With nearly 2 million participants in the sport, triathlons are more popular than ever, and this book is your ultimate guide to training, racing, and thriving in the sport.
+  </p>
+  <p class="text-gray-700 mb-4">
+    Packed with practical advice, proven training tips, and candid stories from her journey, Chrissie offers readers an inside look at what it takes to conquer every challenge, from a quick sprint to the grueling Ironman. This inspiring and empowering read is perfect for any athlete ready to push their limits—and cross their own finish line.
+  </p>
+</div>

@@ -1,0 +1,22 @@
+<section style="max-width: 850px; margin: 40px auto; padding: 30px; background: #fffbea; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); font-family: 'Trebuchet MS', sans-serif; color: #4b3832;">
+  <h1 style="font-size: 32px; text-align: center; color: #d77a61;">🎨 The Van Gogh Activity Book</h1>
+  <p style="text-align: center; font-size: 18px; margin-bottom: 25px;"><em>An entertaining and accessible way to discover Van Gogh through creativity</em></p>
+
+  <div style="background: #fff; border-left: 6px solid #ffbe0b; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+    <p>Unleash your inner artist with this playful introduction to one of history’s most iconic painters — Vincent van Gogh! This book blends education and inspiration, offering a colorful journey through Van Gogh’s world.</p>
+    
+    <ul style="margin-left: 20px; line-height: 1.8;">
+      <li>🖌️ Learn the key themes and artistic features of Van Gogh's style</li>
+      <li>🎨 Try 14 engaging, hands-on activities—from mark making to perspective</li>
+      <li>🧠 Explore the use of complementary colours and brush techniques</li>
+      <li>🗓️ Includes a beautiful illustrated fold-out timeline with 7 famous artworks</li>
+      <li>📚 A creative reference tool and activity book all in one</li>
+    </ul>
+  </div>
+
+  <p style="font-size: 18px;">Whether you're a budding young artist, a curious student, or an educator looking for inspiring materials, <strong>The Van Gogh Activity Book</strong> offers a fun, educational way to explore the magic of Van Gogh’s creativity. From <em>Starry Night</em> to <em>Sunflowers</em>, each page encourages discovery through hands-on learning.</p>
+
+  <footer style="text-align: center; margin-top: 30px; font-style: italic; color: #c85c5c;">
+    Get inspired by the master of colour, texture, and emotion — and make art your own! 🌻
+  </footer>
+</section>

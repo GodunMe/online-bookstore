@@ -1,0 +1,18 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2f3640; line-height: 1.7;">
+  <h2 style="color: #e67e22;">3D History Dioramas – Colour, Pop, and Learn!</h2>
+
+  <p><strong>Bring history to life in 3D!</strong> This interactive activity pad lets kids colour, fold, and pop up incredible scenes from across the ages. With 15 iconic moments in history, children will not only get creative but also learn fascinating facts about different civilizations, events, and cultures.</p>
+
+  <p>From ancient ruins to space exploration, each scene transforms into a vibrant 3D diorama, making learning history both fun and hands-on.</p>
+
+  <div style="background-color: #f6f6f6; border-left: 5px solid #e67e22; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>15 detachable colouring cards that transform into <strong>3D pop-up scenes</strong></li>
+      <li>Learn through <strong>fun facts</strong> on the back of every page</li>
+      <li>Scenes include: <em>Ancient Egyptian Tomb</em>, <em>Viking Longboat</em>, <em>Terracotta Army</em>, <em>Medieval Joust</em>, <em>Apollo 11 Moon Landing</em>, and more!</li>
+      <li>Perfect for <strong>home learning</strong>, <strong>classroom projects</strong>, or creative play</li>
+    </ul>
+  </div>
+
+  <p style="color: #d35400; font-weight: bold;">Build, colour, and discover the past—one diorama at a time!</p>
+</section>

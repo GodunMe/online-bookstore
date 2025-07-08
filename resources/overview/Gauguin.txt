@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-red-700 mb-2">Paul Gauguin</h3>
+
+<p>
+    Painter, designer, sculptor, and art collector — Paul Gauguin (1848–1903) was a visionary artist whose bold style helped shape the course of modern art. As the leading figure of the Pont-Aven school and a key figure in post-impressionism, Gauguin broke away from conventional techniques under the early guidance of Camille Pissarro, ultimately forging a radical new visual language.
+</p>
+
+<p class="mt-2">
+    Gauguin’s revolutionary approach emphasized simplified forms, vivid color palettes, and symbolic content. His restless spirit led him from the coasts of Brittany to the distant shores of the South Pacific, where he sought an untouched paradise and a deeper connection to primal beauty. These journeys profoundly influenced his work, which captured the intensity and spiritual depth of the cultures he encountered.
+</p>
+
+<p class="mt-2">
+    His art was both an escape and a rebellion — against Western norms, academic traditions, and industrial society. Today, Gauguin is recognized not only for his striking canvases and pioneering techniques, but also for inspiring generations of modernists who followed in his wake.
+</p>
+
+<p class="mt-2 italic text-red-700 font-medium">
+    This richly illustrated volume offers an intimate look at Gauguin's life, artistic evolution, and enduring legacy as one of history’s most daring and influential artists.
+</p>

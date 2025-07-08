@@ -1,0 +1,23 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #27ae60;">Everyday Grains – 70 Wholesome Recipes with Rice and More</h2>
+  
+  <p><strong>Enjoy rice and other grains every day</strong> with over 70 delicious, creative recipes that highlight the flavors, textures, and nourishing power of these versatile ingredients.</p>
+
+  <p>Grains are the seeds of cereal crops grown around the world. Wholegrains consist of three parts: the fibre-rich bran, the nutrient-dense germ, and the starchy endosperm. The most familiar is rice—long-grain, short-grain, parboiled, brown—but this book invites you to explore the world of specialty varieties too: <em>Basmati, Jasmine, Japonica, Bomba, Arborio, Carnaroli</em>, and more.</p>
+  
+  <p>Beyond rice, discover recipes using <em>Amaranth, Barley, Buckwheat, Bulghur, Corn, Farro, Kamut, Millet, Oats, Quinoa, Rye</em>, and <em>Spelt</em>. Each grain brings its own texture and character to a diverse collection of dishes.</p>
+
+  <div style="background-color: #f9fdf9; border-left: 5px solid #2ecc71; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Small plates and bowl food for casual dining</li>
+      <li>Hearty mains and sharing platters for gatherings</li>
+      <li>Bakes and sweet treats made with wholesome grains</li>
+      <li>Pantry extras like homemade milks, condiments, and dressings</li>
+      <li>Global influences—from Mediterranean to Asian and beyond</li>
+    </ul>
+  </div>
+
+  <p style="color: #1e8449; font-weight: bold;">
+    Whether you're exploring new flavors or looking to add more wholefoods to your diet, this book is your guide to mastering grains in everyday cooking.
+  </p>
+</section>

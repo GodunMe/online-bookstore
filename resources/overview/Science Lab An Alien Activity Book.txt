@@ -1,0 +1,26 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-green-600 mb-2">Science Lab: An Alien Activity Book</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">Explore the Galaxy with Science-Fueled Fun!</h2>
+
+  <p class="text-gray-700 mb-4">
+    Welcome aboard the <strong>Science Lab Spaceship</strong> — your mission: to help a group of curious aliens explore the wonders of planet Earth through hands-on science! In <strong>Science Lab: An Alien Activity Book</strong>, kids become young scientists as they dive into fun experiments, challenges, and interactive activities alongside their extraterrestrial friends.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Packed with puzzles, science facts, drawing prompts, and out-of-this-world experiments, this book makes learning science an adventure. From testing gravity to understanding the water cycle, children will engage with real scientific concepts in a playful and imaginative way.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Hands-on activities and science experiments</li>
+      <li>Quirky alien characters guide every page</li>
+      <li>Learn about space, gravity, energy, and more</li>
+      <li>Encourages creative thinking and problem solving</li>
+      <li>Ideal for kids aged 6–10 who love science and space!</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Ready to blast off into the galaxy of science? Buckle up, grab your lab coat, and get ready for an alien-fueled journey through the coolest corners of the scientific universe!
+  </p>
+</section>

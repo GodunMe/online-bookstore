@@ -1,0 +1,19 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #2980b9;">Ultimate Quiz Challenge – How Much Do You Really Know?</h2>
+
+  <p>Think you’re a trivia master? This book dares you to prove it! Packed with mind-stretching questions and fun facts, it’s the perfect challenge for curious minds of all ages.</p>
+
+  <p><strong>From the depths of natural wonders to the heights of human achievement</strong>, explore a world of fascinating knowledge. Test your brainpower and compete with family and friends to see who reigns supreme in trivia!</p>
+
+  <div style="background-color: #f0f8ff; border-left: 5px solid #3498db; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Discover astonishing natural wonders from around the globe</li>
+      <li>Revisit historic sporting moments and incredible records</li>
+      <li>Identify world-famous buildings and landmarks</li>
+      <li>Match flags with their countries in a test of global knowledge</li>
+      <li>Challenge yourself on countries, capitals, and cultures</li>
+    </ul>
+  </div>
+
+  <p style="color: #1e6091; font-weight: bold;">Whether you’re a trivia buff or a casual quizzer, this book is your ticket to hours of brain-boosting fun!</p>
+</section>

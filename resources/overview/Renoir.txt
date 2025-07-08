@@ -1,0 +1,20 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #2980b9;">Pierre-Auguste Renoir – Painter of Life’s Happiest Moments</h2>
+  
+  <p><strong>Pierre-Auguste Renoir</strong> placed people at the heart of his art, celebrating human connection, joy, and the everyday pleasures of life.</p>
+  
+  <p>His vibrant compositions feature dancers, picnics, and Parisians enjoying the world around them—captured with luminous color and the soft brushwork that defines Impressionism. Renoir masterfully created scenes full of warmth and sunlight, evoking the carefree essence of summer and the joy of being alive.</p>
+  
+  <div style="background-color: #f0f8ff; border-left: 5px solid #3498db; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Celebrates the beauty of everyday life and human relationships</li>
+      <li>Captures the light, color, and charm of late 19th-century Paris</li>
+      <li>Evocative scenes of dance, leisure, and community</li>
+      <li>Renoir’s unique ability to paint with warmth, softness, and joy</li>
+    </ul>
+  </div>
+  
+  <p style="color: #1a5276; font-weight: bold;">
+    Discover the work of a master who painted not just what he saw, but how it felt—<em>Renoir</em> invites us to see the world with wonder and warmth.
+  </p>
+</section>

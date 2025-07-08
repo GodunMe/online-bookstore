@@ -1,0 +1,30 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-pink-600 mb-2">The Essential Pregnancy & Birth</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">Your Trusted Companion Through Every Step of Motherhood</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>The Essential Pregnancy & Birth</strong> is the ultimate guide for expecting mothers and supportive partners alike. Designed to empower, inform, and reassure, this book offers a comprehensive overview of the physical, emotional, and practical aspects of pregnancy and childbirth — from conception through to your baby’s first days.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Written by leading healthcare professionals and midwives, this guide brings you up-to-date medical insights, natural remedies, and real-life advice to help you feel confident and in control during every trimester. Whether you're a first-time parent or preparing to welcome another child, this book provides trustworthy answers to the questions you didn’t even know you had.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    With detailed illustrations, practical checklists, birth plans, and emotional well-being tips, <strong>The Essential Pregnancy & Birth</strong> gives you the tools to prepare for one of life’s most transformative journeys — with clarity, calmness, and care.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Week-by-week pregnancy insights</li>
+      <li>Expert advice on nutrition, exercise & prenatal care</li>
+      <li>Real stories from mothers & midwives</li>
+      <li>Birth plan guidance and labor techniques</li>
+      <li>Postpartum recovery and newborn care</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Empower yourself with knowledge and nurture your journey from bump to baby with <strong>The Essential Pregnancy & Birth</strong>.
+  </p>
+</section>

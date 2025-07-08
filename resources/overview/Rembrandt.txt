@@ -1,0 +1,20 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #8e44ad;">Rembrandt by Rembrandt – A Master’s Self-Reflection in a Timeless Collection</h2>
+  
+  <p><strong>Widely celebrated as the ultimate painter of the human soul</strong>, <em>Rembrandt Harmenszoon van Rijn</em> (1606–1669) turned his empathetic gaze inward with unmatched honesty, creating more than 50 self-portraits throughout his lifetime.</p>
+  
+  <p>Spanning various media—paintings, sketches, and etchings—these portraits reflect his evolution from a dashing youth to a contemplative elder, portraying himself as a husband, an artist, and a solitary genius. Rembrandt wasn’t just capturing a likeness; he was documenting universal emotional states through expressive brushstrokes and nuanced detail.</p>
+  
+  <div style="background-color: #f9f6fd; border-left: 5px solid #9b59b6; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Over 50 self-portraits across multiple artistic mediums</li>
+      <li>Rich commentary accompanies each work, offering insight into Rembrandt’s world</li>
+      <li>A compact, elegantly designed format—ideal for gifting or collecting</li>
+      <li>Explores the roots of modern self-portraiture—from fine art to selfies</li>
+    </ul>
+  </div>
+  
+  <p style="color: #6c3483; font-weight: bold;">
+    <em>Rembrandt by Rembrandt</em> is more than a collection—it’s a profound visual diary of a man who helped define how we see ourselves.
+  </p>
+</section>

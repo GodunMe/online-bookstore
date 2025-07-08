@@ -1,0 +1,26 @@
+<section style="max-width: 900px; margin: 50px auto; padding: 30px; background-color: #f9f9f9; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); font-family: 'Georgia', serif; color: #1d1d1d; line-height: 1.7;">
+  <h2 style="font-size: 30px; color: #732c02; margin-bottom: 10px;">🕯️ A Secret Buried for Centuries</h2>
+  <p style="color: #555; font-style: italic;">From the shadowy chambers of medieval Europe to the war-torn streets of modern Baghdad, a centuries-old secret awakens...</p>
+
+  <div style="margin-top: 20px;">
+    <h3 style="color: #2c2c2c;">🏰 Templar Castle</h3>
+    <p>
+      In the dungeons of a crumbling Templar fortress, a dying old man passes a half-burned manuscript to a young inquisitor. With assassins close behind and his beliefs shaken, the inquisitor flees from his holy order—determined to uncover the truth hidden in the ancient pages.
+    </p>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <h3 style="color: #2c2c2c;">⚔️ Baghdad, 2003</h3>
+    <p>
+      In the chaos of war, a U.S. Army unit stumbles upon a secret bioweapons facility—where inhumane experiments have been conducted. The prime suspect, a brilliant yet elusive scientist, vanishes into the shadows, leaving only a symbol behind: a snake devouring its own tail.
+    </p>
+  </div>
+
+  <blockquote style="margin: 30px 0; padding-left: 20px; border-left: 4px solid #c43d00; color: #444;">
+    <em>“The power of the symbol reveals a trail of devastation stretching across time—and one woman unknowingly holds the key to its terrible legacy.”</em>
+  </blockquote>
+
+  <p>
+    In a gripping tale of mystery, conspiracy, and ancient knowledge, the past and present collide. What begins as a quest for truth becomes a race to stop a global catastrophe.
+  </p>
+</section>

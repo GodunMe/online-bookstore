@@ -1,0 +1,22 @@
+<section style="max-width: 850px; margin: 40px auto; padding: 30px; background: #f0fbff; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); font-family: 'Comic Sans MS', cursive, sans-serif; color: #05445e;">
+  <h1 style="font-size: 34px; text-align: center; color: #189ab4;">🧮 Multiply & Divide Fun!</h1>
+  <p style="text-align: center; font-size: 18px; margin-bottom: 25px;"><em>Over 130 flaps and puzzles to boost your math skills!</em></p>
+
+  <div style="background: #ffffff; border-left: 6px solid #75e6da; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+    <p>Unlock the magic of multiplication and the secrets of division in this colorful, interactive book packed with flaps to lift and puzzles to solve!</p>
+    
+    <ul style="margin-left: 20px; line-height: 1.8;">
+      <li>📚 Practice your <strong>times tables</strong> with fun games</li>
+      <li>📏 Learn using <strong>number lines</strong></li>
+      <li>🍕 Understand <strong>fractions</strong> through interactive puzzles</li>
+      <li>🗺️ Go on a <strong>treasure island adventure</strong> to test your skills</li>
+      <li>🔍 Lift over <strong>130 flaps</strong> to reveal answers and tips!</li>
+    </ul>
+  </div>
+
+  <p style="font-size: 18px;">Whether you're just starting your multiplication journey or ready to divide and conquer math problems, this book makes learning fun and exciting. Great for ages 6 and up!</p>
+
+  <footer style="text-align: center; margin-top: 30px; font-style: italic; color: #189ab4;">
+    Math is more fun when you lift, learn, and laugh! 🚀
+  </footer>
+</section>

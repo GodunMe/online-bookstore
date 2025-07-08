@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-bold text-rose-600 mb-3">The House of Glamour: <em>The Little Book of Valentino</em></h3>
+
+<p>
+    To have a fashion house bear your name is the ultimate honor—and <strong>Valentino Garavani</strong> has more than earned it. Since establishing the <strong>House of Valentino</strong> in 1950s Rome, he has dressed the world’s most elegant women in timeless silhouettes and his unmistakable <strong>Valentino Red</strong>.
+</p>
+
+<p class="mt-3">
+    <em>The Little Book of Valentino</em> captures the essence of the designer’s glamorous legacy. From Garavani’s haute couture beginnings in 1950s Paris to his reign over 1970s New York society and Hollywood’s red carpets from the 1980s onward, this book is a visual journey through decades of dazzling style.
+</p>
+
+<p class="mt-3">
+    Lavishly illustrated and insightfully written, it explores how each couture creation defined a cultural moment, celebrating a fashion house synonymous with <strong>elegance, prestige, and red-carpet magic</strong>.
+</p>
+
+<p class="mt-3 font-medium text-rose-600">
+    Perfect for lovers of high fashion and timeless beauty, <em>The Little Book of Valentino</em> is your passport to a world where every gown tells a story of sophistication and legacy.
+</p>

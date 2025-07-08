@@ -1,0 +1,24 @@
+<section style="max-width: 900px; margin: 50px auto; padding: 30px; background-color: #f8f9fa; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.05); font-family: 'Segoe UI', sans-serif; color: #1a1a1a; line-height: 1.7;">
+  <h2 style="font-size: 30px; color: #004080; margin-bottom: 10px;">📘 German-English Pictorial Dictionary</h2>
+  <p style="font-style: italic; color: #555;">Over 29,000 objects labeled in both German and English</p>
+
+  <p style="margin-top: 20px;">
+    This comprehensive pictorial dictionary is a valuable tool for anyone learning German or English. With over <strong>29,000 clearly illustrated objects</strong> across all areas of daily life, science, and technology, this dictionary makes language learning more intuitive and visual.
+  </p>
+
+  <h3 style="color: #003366; margin-top: 25px;">Key Features</h3>
+  <ul style="margin-left: 20px; list-style-type: disc;">
+    <li>Detailed, numbered illustrations for quick reference</li>
+    <li>German and English terms presented side-by-side</li>
+    <li>Fully updated with the latest innovations in science and tech</li>
+    <li>Covers major fields: everyday objects, medical, automotive, architecture, and more</li>
+  </ul>
+
+  <blockquote style="margin: 25px 0; padding-left: 20px; border-left: 4px solid #004080; color: #444;">
+    <em>“Ideal for visual learners, travelers, translators, and language students.”</em>
+  </blockquote>
+
+  <p>
+    Whether you’re expanding your vocabulary, studying for exams, or traveling abroad, this edition brings the modern world to your fingertips — in both German and English.
+  </p>
+</section>

@@ -1,0 +1,21 @@
+<h3 class="text-2xl font-semibold text-yellow-700 mb-2">French Cooking at Home</h3>
+
+<p>
+    <strong>French Cooking at Home</strong> is your ultimate guide to mastering the timeless techniques and rich flavors of classic French cuisine. With 100 recipes, infographics, step-by-step photographs, and an illustrated glossary, this beautifully crafted cookbook by chef Marianne Magnier-Moreno brings the elegance and precision of French cooking into your kitchen.
+</p>
+
+<p class="mt-2">
+    Begin your journey with foundational elements—essential stocks, sauces, and preparations like béchamel, roux, and clarified butter—before diving into the core techniques of French gastronomy: sautéing, roasting, grilling, braising, and poaching. With clear instructions and vibrant visuals at every step, even complex methods become approachable for home cooks.
+</p>
+
+<p class="mt-2">
+    Discover forty refined yet accessible recipes for beloved French classics including <strong>boeuf bourguignon</strong>, <strong>cheese soufflé</strong>, <strong>salmon confit</strong>, <strong>stuffed mussels</strong>, <strong>pot-au-feu</strong>, and <strong>perfect roast chicken</strong>. Learn not just how to cook these dishes, but why each preparation step enhances flavor and texture, helping you build intuition and confidence in the kitchen.
+</p>
+
+<p class="mt-2">
+    Complete with a comprehensive visual glossary on cutting, plating, essential tools, and culinary terms, this cookbook is more than a recipe collection—it's a visual masterclass in French culinary artistry.
+</p>
+
+<p class="mt-2 italic text-yellow-700 font-medium">
+    Whether you're a curious beginner or a seasoned enthusiast, <strong>French Cooking at Home</strong> will inspire and equip you to bring the sophistication of French cuisine to your own table with elegance and ease.
+</p>

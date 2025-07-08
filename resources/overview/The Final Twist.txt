@@ -1,0 +1,22 @@
+<section style="max-width: 750px; margin: 40px auto; padding: 30px; background-color: #fdfdfd; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); font-family: 'Segoe UI', sans-serif; color: #222;">
+  <h2 style="font-size: 28px; color: #c0392b; margin-bottom: 10px;">The Gripping New Thriller by Jeffery Deaver</h2>
+  <p style="font-size: 18px; font-style: italic; color: #555;">From the No.1 <strong>Sunday Times</strong> bestseller</p>
+  
+  <div style="margin: 20px 0; font-size: 20px; font-weight: bold; color: #555;">
+    Twist left.<br>
+    Twist right.<br>
+    Don’t slip up.
+  </div>
+  
+  <p style="font-size: 17px; line-height: 1.6;">
+    Unique investigator Colter Shaw is on a dangerous quest — searching for the answer to his father’s final, posthumous riddle. A riddle that leads to evidence capable of bringing down BlackBridge, a shadowy espionage company.
+  </p>
+
+  <p style="font-size: 17px; line-height: 1.6;">
+    Colter believes BlackBridge is behind his father’s death and his brother’s mysterious disappearance. Ruthless and elusive, BlackBridge leaves a deadly trail — but they haven’t faced Colter Shaw.
+  </p>
+
+  <p style="font-size: 17px; line-height: 1.6;">
+    The stakes couldn’t be higher. The fate of a nation rests in Shaw’s hands. To uncover the truth, he must survive long enough to solve the puzzle that destroyed his family.
+  </p>
+</section>

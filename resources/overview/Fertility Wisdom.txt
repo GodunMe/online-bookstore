@@ -1,0 +1,17 @@
+<h3 class="text-2xl font-semibold text-pink-700 mb-2">Fertility Wisdom</h3>
+
+<p>
+    <strong>Fertility Wisdom</strong> offers a groundbreaking, clinically proven program based on ancient Chinese healing traditions that has helped hundreds of couples conceive—even when conventional medicine said it was impossible. At Wu’s Healing Center in San Francisco, Dr. Angela Wu has guided countless families toward successful pregnancies by restoring balance to the body and spirit.
+</p>
+
+<p class="mt-2">
+    In this inspiring and practical book, Dr. Wu shares her unique <strong>6-part self-care regimen</strong> designed to foster internal harmony and optimize the body’s natural ability to conceive. Drawing on traditional Chinese medicine (TCM) and integrating it with Western fertility treatments when needed, the program is suitable for anyone on their fertility journey—whether preparing naturally or undergoing IVF.
+</p>
+
+<p class="mt-2">
+    The regimen not only improves fertility outcomes and reduces the side effects of medical procedures, but also supports shorter labor, smoother postpartum recovery, and healthier babies who tend to sleep better and get sick less often. Readers will also find <strong>heartwarming stories from real patients</strong> who beat the odds and experienced the miracle of life thanks to this holistic approach.
+</p>
+
+<p class="mt-2 italic text-pink-700 font-medium">
+    A must-read for couples facing fertility challenges, <strong>Fertility Wisdom</strong> offers renewed hope, time-tested techniques, and an empowering path toward parenthood grounded in ancient wisdom and modern results.
+</p>

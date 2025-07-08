@@ -1,0 +1,19 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.7;">
+  <h2 style="color: #2c3e50;">Collins Pocket French Dictionary – Compact, Comprehensive, and User-Friendly</h2>
+
+  <p>With more than <strong>40,000 references</strong> and <strong>70,000 translations</strong>, the <em>Collins Pocket French Dictionary</em> delivers rich and reliable coverage of modern French and English. Designed with a sleek, colourful layout for optimal clarity, this handy-sized dictionary is a must-have for students, travellers, and language lovers alike.</p>
+
+  <p>True to the Collins brand, this edition ensures:</p>
+
+  <div style="background-color: #eef6fb; border-left: 5px solid #3498db; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li><strong>Accurate, up-to-date vocabulary</strong> including thousands of contemporary phrases and idioms</li>
+      <li><strong>Clear guidance</strong> on meanings and contexts to help select the right translation every time</li>
+      <li><strong>Special focus</strong> on essential vocabulary like “about”, “can”, “depuis”, and “peu”</li>
+      <li><strong>Cultural notes</strong> offering insights into French life and customs</li>
+      <li><strong>Dictionary skills supplement</strong> with games and activities to reinforce language learning</li>
+    </ul>
+  </div>
+
+  <p style="color: #1a5276; font-weight: bold;">Whether you're brushing up your French, studying for exams, or navigating daily conversations, the <em>Collins Pocket French Dictionary</em> is your perfect everyday language companion—compact in size, vast in content.</p>
+</section>

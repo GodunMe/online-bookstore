@@ -1,0 +1,12 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-indigo-800 mb-4">Karma Cola</h2>
+  <p class="text-gray-700 mb-4">
+    Beginning in the late '60s, hundreds of thousands of Westerners descended upon India, seeking the magic and mystery they believed the East could offer. Indian author <strong>Gita Mehta</strong>, who has lived in England and the U.S., observed this cultural collision firsthand—and with biting wit, she captured it in this modern classic.
+  </p>
+  <p class="text-gray-700 mb-4">
+    In <em>Karma Cola</em>, Mehta exposes the absurdities and consequences of East-meets-West spiritual tourism—from The Beatles and detoxing Hollywood elites to guilt-ridden British wanderers and wide-eyed students. With razor-sharp prose, she reveals how ancient traditions became consumer goods, and how confusion, disillusionment, and even addiction followed in their wake.
+  </p>
+  <p class="text-gray-700">
+    Bold, irreverent, and deeply insightful, <strong>Karma Cola</strong> is a dazzling narrative that blends history, satire, and cultural critique into one unforgettable portrait of spiritual colonialism.
+  </p>
+</div>

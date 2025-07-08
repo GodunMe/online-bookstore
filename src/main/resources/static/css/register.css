@@ -1,0 +1,117 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin-left: 45%;
+    
+}
+
+#logo{
+	text-align: center;
+}
+
+#logo-icon{
+	width: 20%;
+}
+
+#logo-title{
+	width:70%;
+}
+
+
+#register-form{
+	margin: 0 5vw 0 0;
+	width: 80vw;
+	max-width: 500px;
+	padding: 20px;
+	justify-content: center;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+input:hover{
+	box-shadow: 0px 0px 5px #fd7e14;
+}
+
+label{
+    margin: 3px;
+    font-size: 18px;
+	font-weight: semibold;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.form-column {
+    flex: 1; 
+}
+
+#register-form p {
+    padding: 0 10px;
+}
+
+#register-form input,
+#register-form select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#button {
+    padding: 10px 10px;
+    color: black;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: #ccc;
+}
+
+.container a {
+    color: black;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.container button img{
+    width: 8px;
+    margin-right: 5px;
+}
+
+.error-message-box {
+	height: 30px;
+	margin-left: 3px;
+}
+
+.field{
+	margin-top: 5px;
+}

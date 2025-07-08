@@ -1,0 +1,21 @@
+<h3 class="text-2xl font-semibold text-pink-600 mb-2">Cake Pops by Molly Bakes</h3>
+
+<p>
+    Discover the irresistible charm of <strong>cake pops</strong>—the perfect blend of fun, flavor, and creativity. In this delightful collection, Molly Bakes, the UK’s queen of cake pops, invites you into a whimsical world of tiny, bite-sized cakes dipped in chocolate and dressed to impress. These adorable confections are more than just cute—they’re a feast for the eyes and a joy to make.
+</p>
+
+<p class="mt-2">
+    With <strong>50 original recipes</strong> that span from timeless classics like chocolate fudge and vanilla bean to adventurous combinations like red velvet with cream cheese or peanut butter crunch, there's something here to please every palate. Each recipe is designed to be foolproof and fun, guiding both novice and experienced bakers through the process of baking, shaping, dipping, and decorating with confidence.
+</p>
+
+<p class="mt-2">
+    But cake pops are more than just delicious—they're a canvas for imagination. You’ll learn how to transform your creations into dazzling edible art: think love hearts for Valentine’s Day, animal faces for children’s parties, snowmen for the holidays, and even fluffy clouds and sparkly stars. With Molly’s step-by-step guidance and clever tips, you’ll master the art of coating chocolate, using edible decorations, and achieving smooth, professional finishes.
+</p>
+
+<p class="mt-2">
+    Whether you’re making treats for a birthday, gifting sweets to friends, or simply having fun in the kitchen with the kids, <strong>Cake Pops</strong> brings the joy of baking to your fingertips. These cheerful desserts are easy to hold, share, and customize—making them perfect for any occasion.
+</p>
+
+<p class="mt-2 italic text-pink-600 font-medium">
+    Cute, colorful, and absolutely delicious, cake pops are the new cupcake—and with this book in hand, you’ll soon be popping with inspiration.
+</p>

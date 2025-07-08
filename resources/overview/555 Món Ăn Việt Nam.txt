@@ -1,0 +1,19 @@
+<h3 class="text-2xl font-semibold text-green-700 mb-2">Kỹ Thuật Chế Biến Và Giá Trị Dinh Dưỡng</h3>
+
+<p>
+    Cuốn sách là tài liệu tham khảo thiết thực dành cho sinh viên các ngành Quản trị Khách sạn, Nhà hàng và Dịch vụ ăn uống. Với hơn <strong>555 công thức chế biến</strong> phong phú, sách giới thiệu các món ăn từ rau củ, thủy sản, thịt,
+    trứng, ngũ cốc, đồ chay và cả thực đơn ăn kiêng theo từng bệnh lý.
+</p>
+
+<p class="mt-2">
+    Mỗi công thức đều có định lượng cụ thể (thường cho 2 bát/đĩa), kèm hướng dẫn chọn nguyên liệu, cách bảo quản và các lưu ý trong chế biến để đảm bảo chất lượng cả về dinh dưỡng lẫn hương vị.
+</p>
+
+<p class="mt-2">
+    Sách còn hướng dẫn cách trang trí món ăn Việt Nam sao cho hấp dẫn, đồng thời cung cấp bảng thành phần hóa học và năng lượng của từng món – cả trước và sau chế biến nhiệt, giúp bạn ước lượng giá trị dinh dưỡng một cách chính xác mà không
+    cần phòng thí nghiệm.
+</p>
+
+<p class="mt-2 italic text-green-700 font-medium">
+    Một cuốn sách hữu ích dành cho những ai yêu thích ẩm thực và quan tâm đến sức khỏe. Mời bạn đón đọc!
+</p>

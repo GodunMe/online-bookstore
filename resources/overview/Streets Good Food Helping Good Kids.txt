@@ -1,0 +1,20 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #27ae60;">STREETS International – More Than Just a Cookbook</h2>
+
+  <p><strong>Founded in 2007 in Hoi An, Vietnam</strong>, STREETS is a fully-supported 18-month culinary and hospitality training program designed to uplift disadvantaged and vulnerable youth living in poverty. This no-cost program offers a transformative journey for young individuals who dream of a better future.</p>
+
+  <p>Each Trainee receives:</p>
+  <ul style="margin: 1em 0; padding-left: 1.2em;">
+    <li>Classroom instruction and hands-on training in culinary arts and hospitality</li>
+    <li>Nutritious meals, supervised housing, clothing, and uniforms</li>
+    <li>A supportive community, monthly allowance, and basic medical care</li>
+  </ul>
+
+  <div style="background-color: #f9fdfb; border-left: 5px solid #2ecc71; padding: 1em; margin: 1em 0;">
+    <p>This cookbook tells the inspiring story of STREETS and its trainees through <strong>124 pages</strong> of mouthwatering recipes, <strong>exquisite photographs</strong>, and <strong>graduate profiles</strong> that celebrate success against the odds.</p>
+  </div>
+
+  <p style="color: #16a085; font-weight: bold;">
+    Taste the flavors of Hoi An and be part of a journey that transforms lives – one dish at a time.
+  </p>
+</section>

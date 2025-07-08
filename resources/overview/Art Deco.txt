@@ -1,0 +1,18 @@
+<h3 class="text-2xl font-semibold text-green-700 mb-2">Art Deco: The Elegance of a Golden Era</h3>
+
+<p>
+    Art Deco is a decorative and visually striking style that flourished between 1920 and 1940. It represented a bold commitment to modernity, blending aesthetics with the technological optimism of the early 20th century. 
+    This movement influenced every aspect of life and art — from architecture and fashion to industrial design and advertising.
+</p>
+
+<p class="mt-2">
+    With its emphasis on geometry, symmetry, and luxurious materials, Art Deco reflected both elegance and progress. It celebrated functionality while embracing the beauty of craftsmanship and innovation.
+</p>
+
+<p class="mt-2">
+    Featuring over <strong>500 vivid illustrations</strong>, this volume explores the full spectrum of the Art Deco aesthetic — showcasing its expression in buildings, clothing, transportation, everyday objects, and visual culture.
+</p>
+
+<p class="mt-2 italic text-green-700 font-medium">
+    A stunning visual journey for enthusiasts of design, architecture, and the glamour of a bygone era.
+</p>

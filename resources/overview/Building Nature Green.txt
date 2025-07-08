@@ -1,0 +1,25 @@
+<h3 class="text-2xl font-semibold text-green-700 mb-2">Vo Trong Nghia: Building Nature</h3>
+
+<p>
+    <em>Vo Trong Nghia: Building Nature</em> is a monumental two-volume monograph chronicling the life’s work of one of Asia’s most visionary and environmentally conscious architects — Vo Trong Nghia. This comprehensive collection goes beyond showcasing beautiful buildings; it captures a movement that redefines architecture’s role in a climate-challenged world.
+</p>
+
+<p class="mt-2">
+    In a time when the built environment contributes nearly 39% of energy-related carbon emissions, Vo Trong Nghia offers a compelling alternative — one rooted in tradition, sustainability, and spiritual values. Since founding his practice in Ho Chi Minh City in 2006, Vo has drawn upon his Buddhist beliefs and the rich heritage of Vietnamese craftsmanship to develop a bold architectural language centered around harmony with nature.
+</p>
+
+<p class="mt-2">
+    His two central themes — <strong>green architecture</strong> and the innovative use of <strong>bamboo as a primary building material</strong> — are interwoven throughout the projects presented in this book. From serene resort complexes and breathtaking public spaces to art installations and urban housing solutions, each work embodies a balance between form, function, and environmental stewardship.
+</p>
+
+<p class="mt-2">
+    Signature projects such as the <em>Wind and Water Bar</em>, the <em>Farming Kindergarten</em>, and the award-winning <em>House for Trees</em> series demonstrate his commitment to reconnecting urban life with greenery. His designs don’t merely incorporate nature — they actively integrate it, allowing buildings to breathe, shade, and coexist with their environment.
+</p>
+
+<p class="mt-2">
+    Through <strong>393 rich color illustrations</strong> and in-depth narratives, this monograph reveals how Vo Trong Nghia’s work challenges conventional ideas of modernism, while offering sustainable solutions that are deeply contextual and culturally resonant. The book also includes insightful essays on Vo’s design philosophy, interviews, and reflections on the evolving architectural landscape of Vietnam and Southeast Asia.
+</p>
+
+<p class="mt-2 italic text-green-700 font-medium">
+    <strong>Vo Trong Nghia: Building Nature</strong> is not just a tribute to an extraordinary architect — it is an invitation to reimagine the future of architecture through the lens of ecology, culture, and human well-being.
+</p>

@@ -1,0 +1,21 @@
+<section style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; color: #333;">
+  <h2 style="color: #2c3e50;">Targeting Phonics – Book 2 Overview</h2>
+
+  <p>
+    The ability to <strong>decode and encode words efficiently</strong> underpins success with reading and writing. 
+    <strong>Targeting Phonics</strong> teaches these foundational skills using a 
+    <strong>systematic synthetic phonics approach</strong>, aligned with the recommended teaching progression in the 
+    <strong>Australian and NSW Curriculums</strong>.
+  </p>
+
+  <h3 style="color: #34495e;">What’s Covered in Book 2?</h3>
+  <ul>
+    <li>A short revision of the 26 letters introduced in Book 1</li>
+    <li>Long vowel sounds <strong>a, e, i, o</strong> and <strong>u</strong>, with different spelling patterns</li>
+    <li>Consonant digraphs: <strong>sh, ch, th</strong> (voiced and unvoiced), <strong>ph, ng</strong>, and <strong>wh</strong></li>
+    <li>Using <strong>c</strong> and <strong>k</strong> correctly when spelling words with the hard "c" sound</li>
+    <li>Understanding <strong>soft c</strong> and <strong>soft g</strong> sounds</li>
+    <li>Recognizing the digraph <strong>oo</strong> as representing both long and short vowel sounds</li>
+    <li>Identifying how the letter <strong>s</strong> can represent different sounds</li>
+  </ul>
+</section>

@@ -1,0 +1,119 @@
+:root {
+	--primary: rgb(242, 242, 242);
+	--light: #f9f9f9;
+	--border: #ddd;
+	--error: #e74c3c;
+	--success: #27ae60;
+}
+
+body {
+	margin: 0;
+	font-family: 'Segoe UI', sans-serif;
+	background: url('../img/background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card {
+	background: rgb(242, 242, 242);
+	padding: 40px 30px;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	max-width: 450px;
+	width: 100%;
+	backdrop-filter: blur(8px);
+}
+
+.card img {
+	display: block;
+	margin: 0 auto 10px;
+	height: 50px;
+}
+
+h2 {
+	text-align: center;
+	color: var(--primary);
+	margin-bottom: 25px;
+}
+
+.field {
+	margin-bottom: 15px;
+}
+
+label {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	border: 1px solid var(--border);
+	border-radius: 6px;
+}
+
+.row {
+	display: flex;
+	gap: 10px;
+	align-items: stretch;
+	height: 40px;
+}
+
+.btn {
+	background-color: rgb(242, 242, 242);
+	color: black;
+	padding: 10px 15px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.btn:hover {
+	background-color: #ccc;
+}
+
+#send-otp-btn {
+	background-color: rgb(242, 242, 242);
+	color: black;
+	padding: 10px 15px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	font-size: 14px;
+	/* Căn giữa chữ */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* Cố định chiều cao khớp với input */
+	height: 40px;
+}
+
+#send-otp-btn:hover {
+	background-color: #ccc;
+}
+
+.error-msg {
+	color: var(--error);
+	font-size: 14px;
+}
+
+.success-msg {
+	color: var(--success);
+	font-size: 14px;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+#otp-field {
+	display: none;
+}

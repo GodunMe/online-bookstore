@@ -1,0 +1,23 @@
+<section style="max-width: 800px; margin: 40px auto; padding: 30px; background-color: #f0f7f4; color: #2e4631; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); font-family: 'Georgia', serif; line-height: 1.7;">
+  <h2 style="font-size: 30px; color: #26734d; margin-bottom: 10px;">The Principles of Feng Shui</h2>
+  <p style="font-style: italic; color: #406f5c; margin-bottom: 20px;">
+    Unlock the ancient art of balance and energy flow to bring harmony, happiness, and prosperity into every area of your life.
+  </p>
+
+  <p>
+    This insightful guide outlines the <strong>origins and core principles of feng shui</strong>, offering clear and practical advice on how to apply this time-honored practice in modern settings. Whether you're redesigning your home, planning your garden, or optimizing your workspace, feng shui offers powerful tools for creating spaces that attract success and well-being.
+  </p>
+
+  <h3 style="color: #2b5d47; margin-top: 25px;">What you'll learn:</h3>
+  <ul style="list-style-type: square; margin-left: 20px;">
+    <li>The history and philosophy behind feng shui</li>
+    <li>How to harness positive energy (Chi) in your home and business</li>
+    <li>Tips for arranging furniture and décor to enhance harmony</li>
+    <li>Designing gardens that promote peace and renewal</li>
+    <li>Using feng shui for career and financial success</li>
+  </ul>
+
+  <p style="margin-top: 20px; color: #305b47;">
+    Whether you're new to feng shui or looking to deepen your knowledge, this book is your key to a more balanced and fulfilling life.
+  </p>
+</section>

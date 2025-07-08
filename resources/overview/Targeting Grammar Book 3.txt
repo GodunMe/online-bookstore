@@ -1,0 +1,28 @@
+<section style="font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; color: #333;">
+  <h2 style="color: #2c3e50;">Targeting Grammar Activity Book Series</h2>
+
+  <p>
+    The <strong>Targeting Grammar Activity Book Series</strong> follows a carefully developed scope and sequence that provides comprehensive instruction in grammar and punctuation, enabling all students to become skilled communicators.
+  </p>
+
+  <p>
+    Each book delivers basic instruction on grammar conventions appropriate to the year level. The activities guide students through a step-by-step process toward gaining knowledge and understanding of grammar elements and their practical application.
+  </p>
+
+  <h3 style="color: #2c3e50;">Areas of Study</h3>
+  <p>The books are divided into six sections covering the following topics:</p>
+  <ul style="padding-left: 20px;">
+    <li>Nouns</li>
+    <li>Pronouns</li>
+    <li>Adjectives</li>
+    <li>Verbs</li>
+    <li>Adverbs</li>
+    <li>Sentences</li>
+  </ul>
+
+  <p>
+    Each section includes <strong>definitions</strong>, <strong>explanations</strong>, <strong>examples</strong>, and <strong>activities</strong> designed to help students practise and consolidate their understanding of grammar in both reading and writing.
+  </p>
+
+  <p><em>A removable answer section is included for self-assessment and review.</em></p>
+</section>

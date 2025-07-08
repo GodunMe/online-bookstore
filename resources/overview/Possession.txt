@@ -1,0 +1,20 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #c0392b;">Whispers from the Beyond – A Chilling Tale of Love, Loss, and the Unexplainable</h2>
+
+  <p><strong>What if death isn't the end?</strong> In this spine-tingling novel, a young man defies the boundaries of the living world… and the terrifying truth may shatter everything his mother thought she knew.</p>
+
+  <p>When Alex is told that her son, <strong>Fabian Hightower</strong>, has died in a car accident, she is devastated. But her grief turns to confusion—and then dread—when she swears she saw him alive <em>after</em> the time of his death.</p>
+
+  <p>Trying to dismiss the experience as a trick of the mind, Alex attempts to move on. But her instincts won't let go. Strange occurrences and a deepening sense of dread lead her to a medium—who confirms the unthinkable: <strong>Fabian is trying to come back</strong>.</p>
+
+  <div style="background-color: #fef7f1; border-left: 5px solid #e74c3c; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>A suspenseful journey into the unknown—where grief becomes horror</li>
+      <li>A mother torn between truth and terror</li>
+      <li>Unfinished business from beyond the grave</li>
+      <li>A secret so dark it can never be spoken aloud</li>
+    </ul>
+  </div>
+
+  <p style="color: #96281b; font-weight: bold;">Can you truly bury the past? Or will it claw its way back… from the other side?</p>
+</section>

@@ -1,0 +1,35 @@
+<section style="font-family: Georgia, serif; max-width: 800px; margin: 40px auto; line-height: 1.7; color: #2c3e50;">
+  <h2 style="color: #8B4513;">A Rich Social History of British Cooking and Eating</h2>
+  
+  <p>
+    <strong>A remarkable and immersive journey</strong> into the culinary customs of Britain through the ages, this book 
+    delves behind the curious ingredients and mysterious language of old cookbooks to reveal a world vastly different from 
+    today’s kitchens.
+  </p>
+  
+  <p>
+    In eras where food we now take for granted was scarce or unknown, and where preparation and preservation demanded 
+    immense skill and labor, dining was not just about nourishment but a reflection of <strong>social attitudes and customs</strong>.
+  </p>
+
+  <p>
+    Spanning the <strong>medieval and early Tudor, Elizabethan, Stuart, Georgian, Victorian, and Edwardian periods</strong>, the book 
+    includes historical recipes alongside their modern adaptations, offering readers a practical and engaging way to 
+    connect with the past.
+  </p>
+
+  <p>
+    Author <strong>Sara Paston-Williams</strong> draws on the rich records and kitchens of National Trust houses to paint a vivid 
+    picture of Britain’s evolving food culture—from the cavernous, fire-lit kitchens of the Middle Ages to the 
+    technologically advanced service areas of the Victorian era.
+  </p>
+
+  <p>
+    Whether the food was destined for ornate dining rooms or cozy parlors, the rituals of preparation and dining speak 
+    volumes about the lives and values of those who came before us.
+  </p>
+
+  <p>
+    <strong>Includes a handy conversion chart</strong> and is richly illustrated—a true feast for the eyes and the curious mind.
+  </p>
+</section>

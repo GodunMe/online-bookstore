@@ -1,0 +1,30 @@
+<section style="max-width: 960px; margin: 50px auto; padding: 30px; background-color: #fffaf2; border-radius: 18px; box-shadow: 0 12px 28px rgba(0,0,0,0.1); font-family: 'Segoe UI', sans-serif; line-height: 1.8; color: #333;">
+  <h1 style="font-size: 34px; color: #cc4c00; margin-bottom: 10px;">🔬 The Science of Cooking</h1>
+  <p style="font-size: 18px; color: #555;">By <strong>Dr. Stuart Farrimond</strong> – TV personality, food scientist, and bestselling author</p>
+
+  <hr style="margin: 25px 0; border: none; border-top: 1px solid #ddd;" />
+
+  <p><strong>It’s time to bring food science out of the lab and into your kitchen!</strong></p>
+  <p>Which vegetables should you eat raw? How do you make the perfect poached egg? Is it OK to reheat cooked rice? And why exactly does chocolate taste so good? <strong>The Science of Cooking</strong> answers all this and more with easy-to-understand explanations backed by scientific evidence and practical techniques.</p>
+
+  <h3 style="color: #cc4c00; margin-top: 30px;">👨‍🍳 What You'll Discover:</h3>
+  <ul style="padding-left: 20px;">
+    <li>✅ Step-by-step techniques and clear visuals to master core concepts</li>
+    <li>✅ Question-and-answer format that ties science directly to everyday cooking</li>
+    <li>✅ Ingredient-based chapters from meat and seafood to grains, veggies, and herbs</li>
+    <li>✅ Illustrated culinary processes to show what’s happening in your pan or oven</li>
+  </ul>
+
+  <blockquote style="background-color: #ffeedd; padding: 20px; border-left: 6px solid #ff9900; margin: 30px 0; border-radius: 10px;">
+    <em>"A good recipe goes a long way, but understanding the science behind it puts you in control."</em>
+  </blockquote>
+
+  <p><strong>The Science of Cooking</strong> is more than just a cookbook—it's your personal food lab manual. Whether you're a curious hobbyist, a serious foodie, or someone just beginning your culinary journey, this book will equip you with the confidence and knowledge to cook smarter, tastier meals every time.</p>
+
+  <h3 style="color: #cc4c00; margin-top: 30px;">📚 More to Explore</h3>
+  <p>This volume is part of DK’s acclaimed “<strong>The Science of...</strong>” series. Pair it with <em>The Science of Spice</em> for the perfect gift set for the science-loving foodie in your life.</p>
+
+  <footer style="margin-top: 40px; text-align: center; font-style: italic; color: #777;">
+    Discover. Learn. Taste. Master your kitchen with the power of science.
+  </footer>
+</section>

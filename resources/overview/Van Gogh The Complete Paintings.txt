@@ -1,0 +1,16 @@
+<section class="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-2xl mt-10">
+  <h1 class="text-3xl font-bold text-yellow-600 mb-4">Van Gogh: The Complete Paintings</h1>
+  <h2 class="text-xl font-semibold text-gray-800 mb-2">Tortured Talent: The Genius and the Angst of an Expressionist Master</h2>
+  <p class="text-gray-700 mb-4">
+    Vincent van Gogh’s story is one of the most ironic in art history. Today, he is celebrated the world over as one of the most important painters of all time—recognized with sell-out shows, feted museums, and record-breaking auction prices.
+  </p>
+  <p class="text-gray-700 mb-4">
+    Yet during his lifetime, as he painted what would become modern masterpieces, Van Gogh faced devastating mental health struggles and the indifference of contemporary audiences. His battle with depression and anxiety ultimately led to his tragic suicide in 1890, shortly after his 37th birthday.
+  </p>
+  <p class="text-gray-700 mb-6">
+    This comprehensive study pairs a detailed monograph of Van Gogh’s life and art with a complete catalogue of his 871 paintings—offering a powerful and poignant portrait of one of history’s most beloved yet tormented artists.
+  </p>
+  <a href="#" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-medium px-6 py-2 rounded-full transition">
+    Explore the Book
+  </a>
+</section>

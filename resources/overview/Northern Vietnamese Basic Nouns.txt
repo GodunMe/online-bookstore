@@ -1,0 +1,27 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-blue-700 mb-2">Northern Vietnamese Basic Nouns</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">Master Everyday Vietnamese with the Most Common Nouns</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>Northern Vietnamese Basic Nouns</strong> is your essential vocabulary builder for mastering the most frequently used nouns in the Northern dialect of Vietnamese. From family members and food items to places, nature, and emotions, this book brings language learning to life through practical vocabulary and real-world usage.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    Designed for beginners and intermediate learners, this resource makes learning fun and effective with visual aids, pronunciation tips, and simple grammar notes.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>200+ high-frequency nouns categorized by topic</li>
+      <li>Clear IPA pronunciation + English translation</li>
+      <li>Example phrases for every noun</li>
+      <li>Color-coded sections for easier reference</li>
+      <li>Cultural context and common expressions included</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Build a strong foundation in Vietnamese with the words that matter most. <br/>
+    Communicate clearly, confidently, and with cultural fluency!
+  </p>
+</section>

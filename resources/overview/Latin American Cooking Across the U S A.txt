@@ -1,0 +1,21 @@
+<h3 class="text-2xl font-bold text-yellow-700 mb-3">The Rich Tapestry of Latin American Flavors</h3>
+
+<p>
+    In a groundbreaking celebration of Latin American cuisine, authors <strong>Himilce Novas</strong> and <strong>Rosemary Silva</strong> bring together over <strong>200 irresistible recipes</strong> from across the Americas—featuring flavors from <em>Mexico, Puerto Rico, Cuba, Jamaica, Brazil, Argentina, Chile, Peru, Ecuador, Colombia, Guatemala</em>, and beyond.
+</p>
+
+<p class="mt-3">
+    From fiery spices to sweet tropical notes, this vibrant cookbook captures the full spectrum of Latin tastes, all adapted for the home cook. Start with flavorful bites like <strong>Bayamo's Fried Wontons with Chorizo and Chiles</strong> or a creamy <strong>Orange-Scented Roasted Pumpkin Soup</strong>, then explore satisfying mains like <strong>Chicken Asopao</strong> and <strong>Heavenly Potato Pie</strong> filled with beef, raisins, and olives.
+</p>
+
+<p class="mt-3">
+    The book celebrates classics like <strong>Gallo Pinto</strong>, <strong>Jamaican Rice and Peas</strong>, and a variety of <strong>tamales, empanadas</strong>, and savory turnovers—including the standout <strong>Little Brazil Shrimp Turnovers</strong> with shrimp and hearts of palm.
+</p>
+
+<p class="mt-3">
+    Interwoven with these dishes are personal stories and cultural reflections from notable figures such as <em>Cristina, the Cuban-American talk show host</em>, and <em>U.S. Representative Henry B. González</em>. The authors also provide insights on traditional ingredients like <strong>plantains, yuca, taro, and a wide range of Latin chiles</strong>, plus sourcing tips for specialty items.
+</p>
+
+<p class="mt-3 font-medium text-yellow-700">
+    With warmth, storytelling, and unforgettable flavors, this cookbook is more than a collection of recipes—it’s a heartfelt culinary journey through the Latin American experience in the United States.
+</p>

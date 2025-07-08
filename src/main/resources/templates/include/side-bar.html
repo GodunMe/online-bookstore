@@ -1,0 +1,90 @@
+<h1 class="text-xl font-bold flex items-center space-x-2">
+	<img src="img/logo.png" alt="logo" /> <img src="img/logo-title.png"
+		alt="logo-title" />
+</h1>
+
+<nav id="sidebar-nav" class="space-y-2">
+	<a href="/home"
+		class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Home</a>
+
+	<div class="relative">
+		<button id="categories-btn"
+			class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Categories</button>
+		<div id="categories-menu"
+			class="hidden absolute top-0 left-full ml-2 w-auto min-w-max max-h-96 overflow-y-auto border rounded-md bg-white shadow z-10 gap-2 p-2">
+			<a th:each="category : ${categories}"
+				th:href="@{'/category/' + ${category.categoryName}}"
+				class="block text-left px-4 py-2 hover:bg-gray-100 whitespace-nowrap"
+				th:text="${category.categoryName}"></a>
+		</div>
+	</div>
+
+	<a href="/bookmark"
+		class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Wish
+		list</a> <a href="/aboutUs"
+		class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">About
+		us</a> <a href="/help"
+		class="sidebar-btn w-full text-left p-2 rounded-md block transition-transform hover:scale-105 hover:shadow-lg">Help</a>
+</nav>
+
+<script>
+const buttons = document.querySelectorAll(".sidebar-btn");
+const categoriesBtn = document.getElementById("categories-btn");
+const categoriesMenu = document.getElementById("categories-menu");
+const sidebar = document.getElementById("sidebar");
+
+let currentActiveBtn = null;
+
+// Highlight current page
+window.addEventListener("DOMContentLoaded", () => {
+	const currentPage = window.location.pathname.split("/").pop();
+	buttons.forEach((button) => {
+		const href = button.getAttribute("href");
+		if (href && href.split("/").pop() === currentPage) {
+			button.classList.add("bg-gray-200");
+			currentActiveBtn = button;
+		}
+	});
+});
+
+// Handle nav button clicks
+buttons.forEach((button) => {
+	const href = button.getAttribute("href");
+	if (href) {
+		button.addEventListener("click", () => {
+			buttons.forEach((btn) => btn.classList.remove("bg-gray-200"));
+			button.classList.add("bg-gray-200");
+			currentActiveBtn = button;
+		});
+	}
+});
+
+categoriesBtn.addEventListener("click", (e) => {
+	e.stopPropagation();
+	categoriesMenu.classList.toggle("hidden");
+
+	// Highlight Categories
+	buttons.forEach((btn) => btn.classList.remove("bg-gray-200"));
+	categoriesBtn.classList.add("bg-gray-200");
+});
+
+window.addEventListener("click", (e) => {
+	if (!categoriesBtn.contains(e.target) && !categoriesMenu.contains(e.target)) {
+		categoriesMenu.classList.add("hidden");
+
+		buttons.forEach((btn) => btn.classList.remove("bg-gray-200"));
+		if (currentActiveBtn) {
+			currentActiveBtn.classList.add("bg-gray-200");
+		}
+	}
+});
+
+//Show/hide footer based on scroll in sidebar
+let lastSidebarScrollTop = 0;
+sidebar.addEventListener("scroll", () => {
+	const scrollDown = sidebar.scrollTop > lastSidebarScrollTop;
+	toggleFooter(scrollDown);
+	lastSidebarScrollTop = sidebar.scrollTop;
+});
+
+</script>

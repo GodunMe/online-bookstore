@@ -1,0 +1,19 @@
+<section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.7;">
+  <h2 style="color: #c0392b;">Russian Painting – A Journey Through Art and Innovation</h2>
+
+  <p>From the earliest expressions of national art in the early 19th century, through the <strong>romantic seascapes of Aivazovsky</strong>, to the powerful <strong>Realism of Ilya Repin</strong> and the bold experimentation of the <strong>Russian avant-garde</strong>, Russian painting reveals a rich and multifaceted heritage.</p>
+
+  <p>This book brings together over <strong>450 artworks</strong>, offering a comprehensive visual journey through the evolution of Russian art. Whether it’s vast and grandiose landscapes, introspective and haunting portraits, or groundbreaking abstract visions, few nations offer such a remarkable variety of styles and voices.</p>
+
+  <div style="background-color: #fdf6f0; border-left: 5px solid #e67e22; padding: 1em; margin: 1em 0;">
+    <ul style="margin: 0; padding-left: 1.2em;">
+      <li>Explore the early national romanticism and the rise of Russian artistic identity</li>
+      <li>Discover masterpieces from artists like Repin, Levitan, Serov, Kandinsky, Malevich, and more</li>
+      <li>Marvel at 450+ curated works capturing the soul and spirit of Russia through time</li>
+    </ul>
+  </div>
+
+  <p style="color: #8e44ad; font-weight: bold;">
+    A visual celebration of Russia’s greatest painters – their vision, passion, and power captured on canvas.
+  </p>
+</section>

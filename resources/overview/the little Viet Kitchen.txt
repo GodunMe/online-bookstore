@@ -1,0 +1,26 @@
+<section style="max-width: 850px; margin: 40px auto; padding: 30px; background-color: #fff8f4; border-radius: 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); font-family: 'Georgia', serif; line-height: 1.8; color: #5a3e36;">
+  <h2 style="font-size: 32px; color: #a14a32; margin-bottom: 10px;">The Little Viet Kitchen</h2>
+  <p style="font-style: italic; color: #854c3c; margin-bottom: 25px;">
+    100 authentic Vietnamese recipes inspired by tradition, love, and a journey from a small village in Vietnam to the heart of London.
+  </p>
+
+  <p>
+    Bring a taste of Vietnam to your table with this vibrant and soulful cookbook from <strong>Thuy Diem Pham</strong>, owner of the beloved Little Viet Kitchen in Islington, London. Raised in a small village in southern Vietnam, Thuy's cooking is steeped in family traditions, fresh ingredients, and the bustling aromas of street food.
+  </p>
+
+  <p>
+    Having moved to the UK at age seven, Thuy bridges cultures with a distinctive approach—blending her heritage with Western culinary sensibilities. This book features <strong>100 mouthwatering recipes</strong> that showcase the delicate balance of textures and bold flavors Vietnamese cuisine is known for.
+  </p>
+
+  <h3 style="color: #9b3b2e; margin-top: 25px;">Inside you'll find:</h3>
+  <ul style="margin-left: 20px; list-style: circle;">
+    <li>Fresh, wholesome dishes made with organic ingredients</li>
+    <li>Stories from Thuy's journey and her family's traditions</li>
+    <li>Step-by-step guides to Vietnamese cooking essentials</li>
+    <li>Beautiful photographs by <em>David Loftus</em>, styled by Thuy herself</li>
+  </ul>
+
+  <p style="margin-top: 20px;">
+    Whether you're new to Vietnamese cooking or a seasoned home chef, <strong>The Little Viet Kitchen</strong> will become your go-to guide for capturing the essence of Vietnamese cuisine in your own kitchen.
+  </p>
+</section>

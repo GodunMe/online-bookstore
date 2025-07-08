@@ -1,0 +1,22 @@
+body {
+	background: #f5f6fa;
+	font-family: 'Segoe UI', sans-serif;
+	background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.profile-card {
+	max-width: 700px;
+	margin: 50px auto;
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: 16px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.form-control[readonly], .form-select:disabled {
+	background-color: #f0f0f0;
+	cursor: not-allowed;
+}

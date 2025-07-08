@@ -1,0 +1,27 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-green-700 mb-2">Northern Vietnamese Basic Adjectives</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">Build Your Vietnamese Vocabulary with Essential Descriptive Words!</h2>
+
+  <p class="text-gray-700 mb-4">
+    Whether you're just starting to learn Vietnamese or looking to expand your everyday vocabulary, <strong>Northern Vietnamese Basic Adjectives</strong> is the perfect companion. Focused on commonly used adjectives in Northern dialect, this book helps learners communicate more naturally and fluently.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    With vivid illustrations, simple definitions, and real-life examples, you’ll master essential descriptive words to talk about people, places, food, emotions, and more.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Over 100 essential adjectives used in Northern Vietnamese</li>
+      <li>Each word paired with phonetic pronunciation and English translation</li>
+      <li>Example sentences to understand real-world usage</li>
+      <li>Colorful visuals to aid memory and learning</li>
+      <li>Bonus cultural notes and slang variations included</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    Speak more vividly. Describe more confidently. <br/>
+    Unlock the expressive power of Northern Vietnamese with this essential guide!
+  </p>
+</section>

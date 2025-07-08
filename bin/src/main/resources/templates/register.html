@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+
+<head>
+	<link rel="icon" type="image/png" href="img/logo.png">
+    <title>register</title>
+    <link rel="stylesheet" href="css/register.css" />
+</head>
+
+<body>
+    <div class="register-contain">
+        
+
+        <div id="register-form">
+            <div id="logo">
+            <a><img href="/" src="img/logo.png" alt="logo icon" id="logo-icon"></a>
+            <br>
+            <a><img href="/" src="img/logo-title.png" alt="logo title" id="logo-title"></a>
+        	</div>
+            <form action="#" th:action="@{/register}" th:object="${registerform}" method="POST">
+                <div class="field">
+                    <div class="form-row">
+                        <div class="form-column">
+                            <label>First Name</label> <input type="text" id="new-name" name="firstName"
+                                placeholder="First Name" required th:field="*{firstName}" />
+                        </div>
+                        <div class="form-column">
+                            <label>Last Name</label> <input type="text" id="new-lastname" name="lastName"
+                                placeholder="Last Name" required th:field="*{lastName}" />
+                        </div>
+                    </div>
+                    <div class=error-message-box th:if="${errors?.get('name')}">
+                        <span th:text="${errors.get('name')}" style="color: red;"></span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Gender</label>
+                    <select id="new-gender" name="gender" required th:field="*{gender}">
+                        <option value="" disabled>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>Phone Number</label>
+                    <input type="text" id="new-phone" name="phoneNum" placeholder="Phone Number" required
+                        th:field="*{phoneNum}" />
+                    <div class=error-message-box th:if="${errors?.get('phone')}">
+                        <span th:text="${errors.get('phone')}" style="color: red;"></span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Email</label>
+                    <input type="email" id="new-email" name="email" placeholder="Email" required th:field="*{email}" />
+                    <div class=error-message-box th:if="${errors?.get('email')}">
+                        <span th:text="${errors.get('email')}" style="color: red;"></span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Password</label>
+                    <input type="password" id="new-password" placeholder="Password" required th:field="*{password}" />
+                    <div class=error-message-box th:if="${errors?.get('password')}">
+                        <span th:text="${errors.get('password')}" style="color: red;"></span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm Password" required
+                        th:field="*{confirmpassword}" />
+                    <div class=error-message-box th:if="${errors?.get('confirmpass')}">
+                        <span th:text="${errors.get('confirmpass')}" style="color: red;"></span>
+                    </div>
+                </div>
+
+                <!--<p style="color: red;" th:text="${error}"></p>  -->
+                <div class="container">
+                    <button type="submit"><img src="img/lock.png" /> Register</button>
+                    <span>or</span> <a href="index.html">Login</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

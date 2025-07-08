@@ -1,0 +1,14 @@
+<div class="max-w-3xl mx-auto p-6 bg-white shadow-md rounded-xl border border-gray-200">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Universal Human Rights in Theory and Practice (Second Edition)</h2>
+  <p class="text-gray-700 mb-4">
+    In this thoroughly revised second edition, Jack Donnelly expands upon his influential theory of human rights, offering deeper insight into one of the most vital topics in global politics. He tackles persistent debates such as cultural relativism, while evaluating the real-world impact of both bilateral and multilateral international efforts to protect and promote human rights.
+  </p>
+  <p class="text-gray-700 mb-4">
+    New chapters in this edition address a range of pressing post-Cold War challenges, including humanitarian intervention, the intersection of democracy and human rights, debates over "Asian values," group rights, and the rights of sexual minorities. Donnelly’s analysis is both timely and thought-provoking, inviting readers to engage critically with evolving global dynamics.
+  </p>
+  <p class="text-gray-700 mb-4">
+    Widely acclaimed for its clarity and rigor, this book has become a foundational resource in the field. As <em>American Political Science Review</em> praised: “Every once in a while a book appears that treats the leading issues of a subject in such a clear and challenging manner that it becomes central to understanding that subject. <strong>Universal Human Rights in Theory and Practice</strong> is just such a book.”
+  </p>
+</div>
+
+

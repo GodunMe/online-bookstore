@@ -1,0 +1,21 @@
+<h3 class="text-2xl font-semibold text-orange-600 mb-2">My First Touch and Find: Halloween</h3>
+
+<p>
+    Celebrate the spooky season with your little one in this delightfully interactive Halloween adventure! <strong><em>My First Touch and Find: Halloween</em></strong> invites babies and toddlers to lift giant flaps and discover fun surprises on every page — from a shimmering ghost to a furry werewolf and a witch’s silky hat.
+</p>
+
+<p class="mt-2">
+    With bold, colorful illustrations by <strong>Tiago Americo</strong>, this charming book combines touch-and-feel textures with early learning concepts like counting and spotting hidden objects. It’s the perfect way to engage curious minds and little hands during Halloween time, building sensory awareness and vocabulary through play.
+</p>
+
+<p class="mt-2">
+    Part of the much-loved <em>My First Touch and Find</em> series, this sturdy board book is specially designed for older babies and toddlers to enjoy again and again. Whether it's storytime, playtime, or just exploring textures together, every page is full of fun and discovery.
+</p>
+
+<p class="mt-2">
+    Also available in the series: <em>Dinosaurs, Farm, Zoo, Jungle, Sea, Park, Beach, Things That Go, London, Baby Animals, Emergency</em> and <em>Christmas</em> — collect them all for endless tactile adventures!
+</p>
+
+<p class="mt-2 italic text-orange-600 font-medium">
+    A playful Halloween treat that combines fun, learning, and sensory exploration — perfect for tiny hands and big imaginations!
+</p>

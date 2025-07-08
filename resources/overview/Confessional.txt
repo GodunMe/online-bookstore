@@ -1,0 +1,28 @@
+<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md mt-10">
+  <h1 class="text-3xl font-bold text-red-700 mb-2">Confessional</h1>
+  <h2 class="text-xl font-semibold text-gray-700 mb-6">A Deadly Game of Secrets and Espionage</h2>
+
+  <p class="text-gray-700 mb-4">
+    <strong>Confessional</strong> is a gripping political thriller from best-selling author Jack Higgins, where betrayal and espionage cross borders and allegiances. Set during the tense years of the Cold War, the novel follows a dangerous assassin, code-named "Cuchulain," whose deadly missions threaten the fragile peace between nations.
+  </p>
+
+  <p class="text-gray-700 mb-4">
+    As intelligence agencies scramble to stop him, one man is tasked with uncovering the assassin’s true identity — and stopping a conspiracy that could ignite global conflict. With every chapter packed with suspense, danger, and plot twists, <strong>Confessional</strong> keeps readers hooked until the final explosive reveal.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 mb-6">
+    <ul class="list-disc list-inside text-gray-700">
+      <li>Classic espionage and Cold War themes</li>
+      <li>Fast-paced and unpredictable storytelling</li>
+      <li>International intrigue and political suspense</li>
+      <li>Featuring the legendary assassin Cuchulain</li>
+      <li>Ideal for fans of thrillers and spy novels</li>
+    </ul>
+  </div>
+
+  <p class="text-gray-600 italic">
+    In a world of secrets, one confession could change everything.
+    <br/>
+    Dive into the heart of international espionage with <strong>Confessional</strong>.
+  </p>
+</section>

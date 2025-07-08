@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>InhBookWorm - Quản lý</title>
+    <link rel="stylesheet" href="css/admin.css" />
+</head>
+
+<body class="flex m-0 bg-white-1">
+	<header class="fixed height-all bg-white-2">
+		<nav class="grid height-all">
+			<div id="nav-management">
+				<div id="logo" class="bg-dark-yellow">
+					<img id="logo-title" class="width-all" src="img/logo-title.png" alt="logo-icon" />
+					<span class="title">Managemenet</span>
+				</div>
+				<div class="nav-button selected" data-href="/admin/dashboard">
+					<span class="sub-title">Dashboard</span>
+				</div>
+				<div class="nav-button" data-href="/admin/book">
+					<span class="sub-title">Books</span>
+				</div>
+				<div class="nav-button" data-href="/admin/order">
+					<span class="sub-title">Orders</span>
+				</div>
+				<div class="nav-button" data-href="/admin/user">
+					<span class="sub-title">Users</span>
+				</div>
+			</div>
+			<div class="nav-button" data-href="/logout">
+				<span class="sub-title">Logout</span>
+			</div>
+		</nav>
+	</header>
+	<main>
+	</main>
+</body>
+<script src="js/admin.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script>
+	function reset() {
+		$("main").empty();
+		$(".nav-button").removeClass("selected");
+	}
+		
+	$(document).ready(function() {
+		
+		loadLinkButton();
+		
+		$(".nav-button").click(function() {
+			reset();
+			$(this).addClass("selected");
+		});
+		
+		$("#nav-dashboard").click();
+	});	
+</script>
+
+</html>

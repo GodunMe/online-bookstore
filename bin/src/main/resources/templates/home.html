@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>InhBookWorm - Nhà sách lớn nhất cả nước</title>
+    <link rel="stylesheet" href="css/home.css" />
+</head>
+
+<body>
+    <div class="header-taskbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <img src="img/logo-title.png" alt="Logo Title">
+        </div>
+
+        <div class="search-container">
+            <select id="filter" class="filter">
+                <option value="all">All cartegories</option>
+            </select>
+            <input id="search-box" type="text" placeholder="Search...">
+            <button class="search-btn"><img src="img/search.png" alt="Search"></button>
+
+        </div>
+        <div class="user-container">
+            <button class="cart-btn"><img src="cart.png" alt="Cart"></button>
+            <button class="avatar-btn"><img src="img/avatar.png" alt="Avatar"></button>
+        </div>
+    </div>
+    <div class="header-middle">
+        <div class="list"> <img src="list.png">
+            <select class="find-filter">
+                <option>Cartegories</option>
+            </select>
+        </div>
+        <div class="center-links">
+            <a href="home.html">Home page</a>
+            <a href="aboutUs.html">About us</a>
+            <select class="find-filter" onmousedown="this.children[0].style.display='none'" onchange="window.location.href=this.value">
+                <option value="#">Support customer</option>
+                <option value="order.html">Ordering instructions</option>
+                <option value="transport.html">Form of transportation</option>
+                <option value="payment.html">Payment instructions</option>
+            </select>
+        </div>
+        <p>Hotline 0849.401.808</p>
+    </div>
+</body>
+
+</html>
